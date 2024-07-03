@@ -1,0 +1,1184 @@
+@media screen and (max-width: 767px){
+    div.dataTables_wrapper div.dataTables_length, div.dataTables_wrapper div.dataTables_filter, div.dataTables_wrapper div.dataTables_info, div.dataTables_wrapper div.dataTables_paginate {
+        text-align: left;
+    }
+    div.dataTables_wrapper div.dataTables_filter input {
+        margin-left: .1em;
+        display: block;
+        width: 100%;
+    }
+    }
+@media only screen and (max-width: 500px) {
+    body{
+        margin:0%;
+    }
+    #sideBar{
+        min-height:600px; 
+        max-height:900px;
+        margin:5px 2px;
+        border-radius: 20px;
+    }
+    #content{
+        background-color: #fff;
+        color: #000;
+    }
+    #userIdentity{
+        color:#000;
+    }
+    .bg-gradient-primary {
+        background:rgba(88, 89, 91,0.5);
+        background-size:cover
+    }
+    .nav-item{
+        padding-right: 25px;
+    }
+    #logo{
+        width:100%;
+    }
+    #editprofile{
+        width: 70%;
+        height: 70%;
+    }
+    .updateprofileform input{
+        width: 100%;
+    }
+    .container-fluid form .fa {
+        visibility: hidden;
+      }
+      .container-fluid form  .email .fa {
+        visibility: hidden;
+      } 
+    #updateProfile{
+        background-color: #f8b609;
+        border-color: #f8b609;
+        padding: 2px 20px 2px 20px;
+        color: white;
+        border-radius: 20px;
+        border: none;
+    }
+    #welcomeimg{
+        display: none;
+    }
+    h2{
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    .float{
+        position:fixed;
+        width:40px;
+        height:40px;
+        bottom:40px;
+        right:20px;
+        background-color:#03aB4e;
+        color:#FFF;
+        border-radius:50px;
+        text-align:center;
+        box-shadow: 1px 1px 0px #999;
+    }
+    .my-float{
+        margin-top:11px;
+    }
+    .locarea{
+        width:300px;
+    }
+    #jobsimage{
+        margin-bottom: 80px;
+        margin-top: 20px;
+        width:90%;
+        opacity: 0.8;
+    }
+    .jobs{
+        background: #e8e9ed;
+        padding: 50px 20px 100px 20px;
+        margin-left: 20px;
+        color:black;
+        
+    }
+    .jobs h4{
+        font-weight: 700;
+        font-size: 15px;
+    }
+    #refresh{
+        font-size: 12px;
+    }
+    #refresh span{
+        text-decoration: #f8b609 underline;
+        color: #000;
+    }
+    .moredetailsbtn{
+        border:none;
+        background-color: #fff;
+        text-decoration:#000 underline;
+        font-size: 12px;
+    }
+    #jobdetails hr{
+        width: 80%;
+        margin: 2px 10px 2px 40px;
+        height: 0.5px;
+        background-color: #000;
+    }
+    #jobdetails  h4{
+        font-weight: 600;
+        margin: 20px 0px 10px 0px;
+    }
+    #jobdetails{
+        margin-left: 30px;
+    }
+    #jobdetails .modal-content{
+        width: 300px;
+        color:black;
+        border-radius: 30px;
+    }
+    #jobdetails .column1{
+        color: #58595b;
+        font-weight: 600;
+    }
+    #closejobdetails{
+        margin-left: 270px;
+        margin-top: 10px;
+    }
+    #services{
+        
+        margin-bottom: 15px;
+    }
+    #location{
+        
+        margin-top: 15px;
+    }
+    #acceptjob{
+        background-color: #f8b609;
+        border: none;
+        padding: 0px 20px 0px 20px;
+        color: black;
+        border-radius: 20px;
+        margin-right: 0px;
+    }
+    #declinejob{
+        background-color: #fff;
+        border:1px solid #f8b609;
+        padding: 0px 25px 0px 25px;
+        color: black;
+        border-radius: 25px;
+      
+       margin-left: 20px;
+    }
+    #jobapproved{
+        margin-top: -30px;
+        visibility: hidden;
+    }
+    #declinereason{
+        margin: 50px 0px 0px 20px;
+        padding: 10px 10px 5px 10px;
+       
+    }
+    #declinereason .modal-content{
+        width: 300px;
+        background-color: #e8e9ed;
+        color: #000;
+        border:1px solid #f8b609;
+        border-radius: 20px;
+       
+    }
+    #declinereason form{
+        text-align: center;
+    }
+    #declinereason form textarea{
+        width:200px;
+        height: 80px;
+        margin-bottom: 20px;
+    }
+    #declinereason form a{
+        font-weight: 700;
+        color: #000;
+        font-size: 14px;
+    }
+    #submitdeclinereason{
+        border-radius: 20px;
+        background-color: #f8b609;
+        color: #fff;
+        border: none;
+        margin:20px 20px;
+        padding: 1px 15px 1px 15px;
+    }
+    #submitMessage .modal-content{
+        margin:350px 350px 0px 100px;
+        background-color: #e8e9ed;
+        color: #000;
+        border: 1px solid #f8b609;
+        border-radius: 40px;
+    }
+    #confirmsubmit{
+        border-radius: 20px;
+        background-color: #f8b609;
+        color: #fff;
+        border: none;
+        margin-left: 130px;
+        padding: 1px 15px 1px 15px;
+    }
+    #activejobs{
+        background-color: white;
+        color: #000;
+        padding: 2px 20px 2px 20px;
+        border: 1px solid #f8b609;
+        border-radius: 20px;
+    }
+    #activejobs span{
+        font-weight: 700;
+    }
+    #notification-header{
+        background-color: #e8e9ed;
+        color: black;
+        border-radius: 20px;
+        width:100%;
+        font-size: 12px;
+        padding: 5px 10px 5px 25px;
+    }
+    .availableCash{
+        border: none;
+        border-bottom: 1px solid #000;
+        width: 100%;
+        font-size: 12px;
+    }
+    #withdrawcash .modal-content{
+      background-color: #e8e9ed;
+      color: #000;
+      width: 200px;
+      border-radius: 20px;
+      border: 1px solid #f8b609;
+      margin-left:70px;
+      margin-top: 50px;
+    }
+    #withdrawcash input{
+        border: none;
+        border-bottom: 1px solid #000;
+        background-color: transparent;
+        width: 70%;
+    }
+    #submitwithdrawal{
+        margin: 10px 0;
+        border:none;
+        border-radius: 20px;
+        background-color: #f8b609;
+        color: #000;
+        padding: 2px 20px;
+    }
+    #successwithdrawal .modal-content{
+        background-color: #e8e9ed;
+        color: #000;
+        width: 250px;
+        border-radius: 20px;
+        border: 1px solid #f8b609;
+        margin-left:70px;
+        margin-top: 70px;
+      }
+      .withdrawbtn {
+        background-color: #fff;
+        color: #000;
+        font-size: small;
+        padding: 2px 10px;
+        border-radius: 20px;
+        border: none;
+        margin-right: -25px;
+    }
+    #walletimgcol{
+        display:none;
+    }
+    .chart-holder{
+        margin-top: -70px;
+    }
+    #lowercards {
+        color: black;
+    }
+    #lowercards p{
+        font-weight: 600;
+    }
+    .cardimgs{
+        margin:5px 0px 0px 30px;
+    }
+    .weekly{
+        padding: 12px;
+        background-color: #e8e9ed;
+        border-radius: 10px;
+    }
+    .pending{
+        padding: 10px;
+        background-color: #f8b609;
+        border-radius: 10px;
+    }
+    .due{
+        padding: 10px;
+        background-color: #58595b;
+        border-radius: 10px;
+    }
+    .chartCanvas{
+        height: 200px; width: 300px;
+    }
+    .updateprofileform input{
+        background-color: #e8e9ed;
+        border: none;
+        border-radius: 5px;
+        padding-left: 10px;
+     }
+     .updateprofileform label{
+         color: black;
+     }
+     .totalCard {
+        background: rgba(248, 182, 9, 0.6) ;
+        color: #000;
+    }
+    #chartheader{
+        background-color: #e8e9ed;
+        color: black;
+        border-radius: 20px;
+        margin: 10px 10px;
+        width:100%;
+        padding: 5px 10px 5px 15px;
+    }
+    #note{
+        display: none;
+    }
+    #notewords{
+        display: none;
+    }
+    #ratingcard{
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    body{
+        margin:0%;
+    }
+    #sideBar{
+        min-height:600px; 
+        max-height:900px;
+        margin: 5px;
+        border-radius: 20px;
+    }
+    #content{
+        background-color: #fff;
+        color: #000;
+    }
+    #userIdentity{
+        color:#000;
+    }
+    .bg-gradient-primary {
+        background:rgba(88, 89, 91,0.5);
+        background-size:cover
+    }
+    .nav-li{
+        margin-left: 5px;
+    }
+    .nav-item{
+        padding-right: 30px;
+    }
+    #logo{
+        width:70%;
+    }
+    #editprofile{
+        width: 50%;
+        height: 50%;
+    }
+    .updateprofileform input{
+        width: 100%;
+    }
+    .container-fluid form .fa {
+        visibility: hidden;
+      }
+      .container-fluid form  .email .fa {
+        visibility: hidden;
+      } 
+    #updateProfile{
+        background-color: #f8b609;
+        border-color: #f8b609;
+        padding: 2px 20px 2px 20px;
+        color: white;
+        border-radius: 20px;
+        border: none;
+    }
+    .float{
+        position:fixed;
+        width:40px;
+        height:40px;
+        bottom:40px;
+        right:20px;
+        background-color:#03aB4e;
+        color:#FFF;
+        border-radius:50px;
+        text-align:center;
+        box-shadow: 1px 1px 0px #999;
+    }
+    .my-float{
+        margin-top:11px;
+    }
+    .locarea{
+        width:300px;
+    }
+    #jobsimage{
+        margin-bottom: 80px;
+        margin-top: 20px;
+        width:80%;
+        opacity: 0.8;
+    }
+    .jobs{
+        background: #e8e9ed;
+        padding: 50px 20px 100px 20px;
+        margin-left: 20px;
+        color:black;
+        
+    }
+    .jobs h4{
+        font-weight: 700;
+        font-size: 20px;
+    }
+    #refresh{
+        font-size: 15px;
+    }
+    #refresh span{
+        text-decoration: #f8b609 underline;
+        color: #000;
+    }
+    .moredetailsbtn{
+        border:none;
+        background-color: #fff;
+        text-decoration:#000 underline;
+        font-size: 12px;
+    }
+    #jobdetails hr{
+        width: 80%;
+        margin: 2px 10px 2px 40px;
+        height: 0.5px;
+        background-color: #000;
+    }
+    #jobdetails  h4{
+        font-weight: 600;
+        margin: 20px 0px 10px 0px;
+    }
+    #jobdetails{
+        margin-left: 100px;
+        margin-top: 200px;
+    }
+    #jobdetails .modal-content{
+        width: 400px;
+        color:black;
+        border-radius: 30px;
+    }
+    #jobdetails .column1{
+        color: #58595b;
+        font-weight: 600;
+    }
+    #closejobdetails{
+        margin-left: 370px;
+        margin-top: 10px;
+    }
+    #services{
+        
+        margin-bottom: 15px;
+    }
+    #location{
+        
+        margin-top: 15px;
+    }
+    #acceptjob{
+        background-color: #f8b609;
+        border: none;
+        padding: 0px 20px 0px 20px;
+        color: black;
+        border-radius: 20px;
+        margin-right: 100px;
+    }
+    #declinejob{
+        background-color: #fff;
+        border:1px solid #f8b609;
+        padding: 0px 25px 0px 25px;
+        color: black;
+        border-radius: 25px;
+      
+       margin-left: 20px;
+    }
+    #jobapproved{
+        margin-top: -30px;
+        visibility: hidden;
+    }
+    #declinereason{
+        margin: 150px 0px 0px 100px;
+        padding: 10px 10px 5px 10px;
+       
+    }
+    #declinereason .modal-content{
+        width: 400px;
+        background-color: #e8e9ed;
+        color: #000;
+        border:1px solid #f8b609;
+        border-radius: 20px;
+       
+    }
+    #declinereason form{
+        text-align: center;
+    }
+    #declinereason form textarea{
+        width:200px;
+        height: 80px;
+        margin-bottom: 20px;
+    }
+    #close{
+        float: right;
+    }
+    #declinereason form a{
+        font-weight: 700;
+        color: #000;
+        font-size: 14px;
+    }
+    #submitdeclinereason{
+        border-radius: 20px;
+        background-color: #f8b609;
+        color: #fff;
+        border: none;
+        margin:20px 20px;
+        padding: 1px 15px 1px 15px;
+    }
+    #submitMessage .modal-content{
+        margin:350px 350px 0px 100px;
+        background-color: #e8e9ed;
+        color: #000;
+        border: 1px solid #f8b609;
+        border-radius: 40px;
+    }
+    #confirmsubmit{
+        border-radius: 20px;
+        background-color: #f8b609;
+        color: #fff;
+        border: none;
+        margin-left: 130px;
+        padding: 1px 15px 1px 15px;
+    }
+    #activejobs{
+        background-color: white;
+        color: #000;
+        padding: 2px 20px 2px 20px;
+        border: 1px solid #f8b609;
+        border-radius: 20px;
+    }
+    #activejobs span{
+        font-weight: 700;
+    }
+    #notification-header{
+        background-color: #e8e9ed;
+        color: black;
+        border-radius: 20px;
+        width:100%;
+        font-size: 20px;
+        padding: 5px 10px 5px 25px;
+    }
+    .availableCash{
+        border: none;
+        border-bottom: 1px solid #000;
+        width: 50%;
+    }
+    #withdrawcash .modal-content{
+      background-color: #e8e9ed;
+      color: #000;
+      width: 200px;
+      border-radius: 20px;
+      border: 1px solid #f8b609;
+      margin-left:70px;
+      margin-top: 50px;
+    }
+    #withdrawcash input{
+        border: none;
+        border-bottom: 1px solid #000;
+        background-color: transparent;
+        width: 70%;
+    }
+    #submitwithdrawal{
+        margin: 10px 0;
+        border:none;
+        border-radius: 20px;
+        background-color: #f8b609;
+        color: #000;
+        padding: 2px 20px;
+    }
+    #successwithdrawal .modal-content{
+        background-color: #e8e9ed;
+        color: #000;
+        width: 250px;
+        border-radius: 20px;
+        border: 1px solid #f8b609;
+        margin-left:70px;
+        margin-top: 70px;
+      }
+      .withdrawbtn {
+        background-color: #fff;
+        color: #000;
+        font-size: small;
+        padding: 2px 10px;
+        border-radius: 20px;
+        border: none;
+        margin-right: -25px;
+    }
+    .chart-holder{
+        margin-top: 0px;
+    }
+    #lowercards {
+        color: black;
+    }
+    #lowercards p{
+        font-weight: 600;
+    }
+    .cardimgs{
+        margin:5px 0px 0px 30px;
+    }
+    .weekly{
+        padding: 12px;
+        background-color: #e8e9ed;
+        border-radius: 10px;
+    }
+    .pending{
+        padding: 10px;
+        background-color: #f8b609;
+        border-radius: 10px;
+    }
+    .due{
+        padding: 10px;
+        background-color: #58595b;
+        border-radius: 10px;
+    }
+    .chartCanvas{
+        height: 200px; width: 300px;
+    }
+    .updateprofileform input{
+        background-color: #e8e9ed;
+        border: none;
+        border-radius: 5px;
+        padding-left: 10px;
+     }
+     .updateprofileform label{
+         color: black;
+     }
+     .totalCard {
+        background: rgba(248, 182, 9, 0.6) ;
+        color: #000;
+    }
+    #chartheader{
+        background-color: #e8e9ed;
+        color: black;
+        border-radius: 20px;
+        margin: 10px 10px;
+        width:50%;
+        padding: 5px 10px 5px 18px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    body{
+        margin: 10px 100px 20px 100px;
+    }
+    #sideBar{
+        border-radius: 20px; min-height:600px; max-height:900px;
+    }
+    #content{
+        background-color: #fff;
+        color: #000;
+    }
+    #userIdentity{
+        color:#000;
+    }
+    .logout{
+        color:black;
+    }
+    .navbar .navbar-nav .nav-item .nav-link:active{
+        background-color: #ffffff;
+        color: #000;
+        border-radius: 10px;
+    }
+    .navbar .navbar-nav .nav-item .nav-link{
+        font-size: medium;
+        font-weight: 600;
+    }
+    .navbar .navbar-nav .nav-item .nav-li{
+        margin-left: 10px;
+    }
+    .tables{
+        color:black;
+    }
+    .tables table th{
+        color:#58595b;
+    }
+    .tables table tr{
+        color:#000;
+    }
+    .bg-gradient-primary {
+        background:rgba(88, 89, 91,0.5);
+        background-size:cover
+    }
+    .container-fluid #formholder{
+        margin-left:250px;
+    }
+    .container-fluid #profileholder{
+        margin-bottom: 30px;
+    }
+    .updateprofileform input{
+       background-color: #e8e9ed;
+       border: none;
+       border-radius: 5px;
+       padding-left: 10px;
+    }
+    .updateprofileform label{
+        color: black;
+    }
+    @media(max-width:1439px){
+        .container-fluid #formholder{
+            margin-left:0px;
+        }
+        .container-fluid #profileholder{
+            margin-bottom: 30px;
+        }
+        .updateprofileform input{
+           background-color: #e8e9ed;
+           width: 100%;
+           border: none;
+           border-radius: 5px;
+           padding-left: 10px;
+        }
+        .updateprofileform .email input{
+            background-color: #e8e9ed;
+            width: 100%;
+            border: none;
+            border-radius: 5px;
+            padding-left: 10px;
+         }
+        .updateprofileform label{
+            color: black;
+        }
+    }
+    #updateProfile{
+        background-color: #f8b609;
+        border-color: #f8b609;
+        padding: 2px 20px 2px 20px;
+        color: white;
+        border-radius: 20px;
+        border: none;
+    }
+    .container-fluid form .fa {
+        top: 35px;
+        left: 200px;
+      }
+      .container-fluid form  .email .fa {
+        top: 35px;
+        left: 475px;
+      } 
+      @media(max-width:1439px){
+        .container-fluid form .fa {
+            top: 35px;
+            left: 85%;
+          }
+          .container-fluid form  .email .fa {
+            top: 35px;
+            left: 92%;
+          } 
+      }
+      form #profileupdated{
+        background-color: #ffffff;
+        border-color: #f8b609;
+        padding: 2px 20px 2px 20px;
+        color: black;
+        border-radius: 20px;
+        margin-left: 130px;
+    }
+    
+    #services{
+        margin-left: 20px;
+        margin-bottom: 25px;
+    }
+    
+    #dateandtime{
+        margin-left: 25px;
+    }
+    #location{
+        margin-left: 30px;
+        margin-top: 25px;
+    }
+    #jobsummary {
+        width: 400px;
+        margin: 0px 200px 50px 300px;
+        color:black;
+    }
+    #jobsummary  h5{
+        font-weight: 800;
+        margin-top: 20px;
+    }
+    #jobsummary  hr{
+        width: 80%;
+        margin: 2px 10px 2px 40px;
+        height: 0.5px;
+        background-color: #000;
+    }
+    
+    #acceptjob{
+        background-color: #f8b609;
+        border: none;
+        padding: 0px 20px 0px 20px;
+        color: black;
+        border-radius: 20px;
+        margin-right: 100px;
+    }
+    #declinejob{
+        background-color: #fff;
+        border:1px solid #f8b609;
+        padding: 0px 25px 0px 25px;
+        color: black;
+        border-radius: 25px;
+       margin-right: 70px;
+       margin-left: 20px;
+    }
+    #jobapproved{
+        margin-top: -30px;
+        visibility: hidden;
+    }
+    #declinereason{
+        margin: 130px 0px 0px -60px;
+        padding: 10px 10px 5px 10px;
+       
+    }
+    #declinereason .modal-content{
+        width: 400px;
+        background-color: #e8e9ed;
+        color: #000;
+        border:1px solid #f8b609;
+        border-radius: 20px;
+       
+    }
+    #declinereason form{
+        text-align: center;
+    }
+    #declinereason form textarea{
+        width:300px;
+        height: 80px;
+        margin-bottom: 20px;
+    }
+    #declinereason form a{
+        font-weight: 700;
+        color: #000;
+    }
+    #submitdeclinereason{
+        border-radius: 20px;
+        background-color: #f8b609;
+        color: #fff;
+        border: none;
+        margin:20px 20px;
+        padding: 1px 15px 1px 15px;
+    }
+    #submitMessage .modal-content{
+        margin:350px 350px 0px 100px;
+        background-color: #e8e9ed;
+        color: #000;
+        border: 1px solid #f8b609;
+        border-radius: 40px;
+    }
+    #confirmsubmit{
+        border-radius: 20px;
+        background-color: #f8b609;
+        color: #fff;
+        border: none;
+        margin-left: 130px;
+        padding: 1px 15px 1px 15px;
+    }
+    .moredetailsbtn{
+        border:none;
+        background-color: #fff;
+        text-decoration:#000 underline;
+    }
+    .totalCard {
+        background: rgba(248, 182, 9, 0.6) ;
+        color: #000;
+    }
+    #walletimg{
+        margin-left: 150px;
+    }
+    .withdrawbtn {
+        background-color: #fff;
+        color: #000;
+        font-size: small;
+        padding: 2px 10px;
+        border-radius: 20px;
+        border: none;
+        margin-right: -25px;
+    }
+    .totalCard p{
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .availableCash{
+        border: none;
+        border-bottom: 1px solid #000;
+        width: 50%;
+    }
+    #withdrawcash .modal-content{
+      background-color: #e8e9ed;
+      color: #000;
+      width: 200px;
+      border-radius: 20px;
+      border: 1px solid #f8b609;
+      margin-left:10px;
+      margin-top: 150px;
+    }
+    #withdrawcash input{
+        border: none;
+        border-bottom: 1px solid #000;
+        background-color: transparent;
+        width: 70%;
+    }
+    #submitwithdrawal{
+        margin: 10px 0;
+        border:none;
+        border-radius: 20px;
+        background-color: #f8b609;
+        color: #000;
+        padding: 2px 20px;
+    }
+    #successwithdrawal .modal-content{
+        background-color: #e8e9ed;
+        color: #000;
+        width: 250px;
+        border-radius: 20px;
+        border: 1px solid #f8b609;
+        margin-left:10px;
+        margin-top: 170px;
+      }
+    .chart-holder{
+        margin-top: 20px;
+        color:#000;
+    }
+    #lowercards {
+        color: black;
+    }
+    #lowercards p{
+        font-weight: 700;
+    }
+    .cardimgs{
+        margin:5px 0px 0px 30px;
+    }
+    .weekly{
+        padding: 12px;
+        background-color: #e8e9ed;
+        border-radius: 10px;
+    }
+    .pending{
+        padding: 10px;
+        background-color: #f8b609;
+        border-radius: 10px;
+    }
+    .due{
+        padding: 10px;
+        background-color: #58595b;
+        border-radius: 10px;
+    }
+    #fyxpolicy{
+        color:black;
+        margin: 230px 0px 0px 20px;
+    }
+    #fyxpolicy h1{
+        font-size: 70px;
+    }
+    .orderdetails{
+        width: 50%;
+        float: left; 
+    }
+    #pendingapproval{
+        margin-top: 250px;
+        margin-left: -10px;
+    }
+    #pendingapproval .modal-content{
+        border-radius: 50px;
+        border: 1px solid #f8b609;
+        height: 120px;
+        background-color: #e8e9ed;
+        color: #000;
+    }
+    
+    #jobdetails hr{
+        width: 80%;
+        margin: 2px 10px 2px 40px;
+        height: 0.5px;
+        background-color: #000;
+    }
+    #jobdetails  h4{
+        font-weight: 800;
+        margin: 20px 0px 10px 0px;
+    }
+    #jobdetails .modal-content{
+        color:black;
+        border-radius: 30px;
+        margin-top: 50px;
+        margin-left: 100px;
+    }
+    #jobdetails .column1{
+        color: #58595b;
+        font-weight: 600;
+    }
+    #jobsummary .column1{
+        color: #58595b;
+        font-weight: 600;
+    }
+    #successprofileupdate{
+        margin-top: 300px;
+        margin-left: 100px;
+        color: #000;
+    }
+    #successprofileupdate .modal-content{
+        background-color: #e8e9ed;
+        color: #000;
+        border: 1px solid #f8b609;
+        border-radius: 20px;
+    }
+    #jobsimage{
+        margin-bottom: 30px;
+        margin-top: 50px;
+        opacity: 0.8;
+        width: 50%;
+    }
+    .jobs{
+        background: #e8e9ed;
+        padding: 30px 50px 10px 50px;
+        margin-left: 20px;
+        color:black;
+        padding-bottom: 110px;
+    }
+    .jobs h4{
+        font-weight: 800;
+    }
+    #refresh span{
+        text-decoration: #f8b609 underline;
+        color: #000;
+    }
+    #activejobs{
+        background-color: white;
+        color: #000;
+        padding: 2px 20px 2px 20px;
+        border: 1px solid #f8b609;
+        border-radius: 20px;
+    }
+    #activejobs span{
+        font-weight: 700;
+    }
+    #ratingcard{
+        margin-top: 50px;
+        background-color: #e8e9ed;
+        color: #000;
+        height: 250px;
+        width: 200px;
+        float: right;
+    }
+    .float{
+        position:fixed;
+        width:60px;
+        height:60px;
+        bottom:40px;
+        right:110px;
+        background-color:#03aB4e;
+        color:#FFF;
+        border-radius:50px;
+        text-align:center;
+        box-shadow: 1px 1px 0px #999;
+    }
+    
+    .my-float{
+        margin-top:22px;
+    }
+    #welcomecard{
+        height: 200px;
+        color: black;
+    }
+    .email input{
+        width:95%;
+    }
+    #welcomewords h2{
+      font-weight: 600;
+      margin-top: 50px;
+
+    }
+    #welcomeimg{
+        margin-left: 250px;
+    }
+    #chartCard{
+        height:250px;
+    }
+    .chartCard{
+        height: 250px;
+    }
+    #chartCard select{
+        margin:20px 10px;
+        width:150px;
+        background-color: #e8e9ed;
+        color: #000;
+        margin-left: 350px;
+    }
+    .chartCanvas{
+        display: block; height: 320px; width: 364px;
+    }
+    #note{
+        margin-left: -80px;
+    }
+    #notewords{
+        margin-left: -150px;
+    }
+    #notification-header{
+        background-color: #e8e9ed;
+        color: black;
+        border-radius: 20px;
+        width:35%;
+        padding: 5px 10px 5px 25px;
+    }
+    @media(max-width:1439px){
+        #notification-header{
+            background-color: #e8e9ed;
+            color: black;
+            border-radius: 20px;
+            width:75%;
+            padding: 5px 10px 5px 25px;
+        }
+    }
+    #ratingparagraph{
+        margin-top: 150px;
+    }
+    #ratingparagraph i{
+        color:#f8b609;
+    }
+    #close{
+        float:right;
+    }
+    #chartheader{
+        background-color: #e8e9ed;
+        color: black;
+        border-radius: 20px;
+        margin: 10px 10px;
+        width:30%;
+        padding: 5px 10px 5px 25px;
+    }
+    #closejobdetails{
+        margin-left: 470px;
+        margin-top: 10px;
+    }
+}
+@media(max-width:1439px) {
+    #chartCard{
+        width: 80%;
+    }
+    #ratingcard{
+        margin-top: 100px;
+    }
+    #welcomeimg{
+        margin-left: 50px;
+    }
+    #welcomewords h2{
+        font-weight: 500;
+        margin-top: 30px;
+  
+      }
+      #notewords{
+        margin-left: -80px;
+    }
+    .cardimgs{
+        margin:5px 0px 0px 10px;
+    }
+}

@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Wallet - FyxTechnologies</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <div id="wrapper">
+    <nav id = "sideBar" class="navbar navbar-dark align-items-start sidebar sidebar-dark accordion bg-gradient-primary p-0 mb-5 mt-1">
+        <div class="container-fluid d-flex flex-column p-0"><a class="navbar-brand d-flex justify-content-center align-items-center sidebar-brand m-0" href="#">
+            <div class="mr-3"><img id = "logo" src = "assets/img/Asset 2.svg" width = "130px" height="80px"/></div>
+            </a>
+            <hr class="sidebar-divider mt-2" />
+            <ul class="navbar-nav text-light ml-3 mb-0" id="accordionSidebar">
+                <li class="nav-item"><a class="nav-link" href="profile.html"><img src = "assets/icons/Icon awesome-user-circle.png"/><span class = "nav-li">Profile</span></a></li>
+                <li class="nav-item"><a class="nav-link" href="nojobsyet.html"><img src = "assets/icons/Icon material-dashboard.png"/><span class = "nav-li">Job Dashboard</span></a></li>
+                <li class="nav-item"><a class="nav-link" href="notification.html"><img src = "assets/icons/Icon ionic-md-notifications.png"/><span class = "nav-li">Notification</span></a></li>
+                <li class="nav-item"><a class="nav-link active" href="wallet.html"><img src = "assets/icons/Icon awesome-wallet.png"/><span class = "nav-li">Wallet</span></a></li>
+                <li class="nav-item"><a class="nav-link" href="fyxpolicy.html"><img src = "assets/icons/Icon awesome-file-contract.png"/><span class = "nav-li">Fyx Policy</span></a></li>
+                <li class="nav-item"><a class="nav-link" href="https://localhost/fyx-frontend/homepage.html"><img src = "assets/icons/Icon awesome-home.png"/><span class = "nav-li">Home</span></a></li>
+                <li class="nav-item" style = "margin-top: 100px;"><a class="nav-link" href="#"><img src = "assets/icons/Icon awesome-info-circle.png"/><span class = "nav-li">About Us</span></a></li>
+                <li class="nav-item" style = "margin-bottom: 0px; padding-bottom: 5%;"><a class="nav-link" href="#"><img src = "assets/icons/Icon feather-log-out.png"/>  <span class = "nav-li logout">Log Out</span></a></li>
+            </ul>
+            
+        </div>
+    </nav>
+    <div class="d-flex flex-column" id="content-wrapper">
+        <div id="content">
+            <nav class="navbar navbar-light navbar-expand shadow-sm bg-white mb-3 ml-4 mr-4 mt-1 pt-0 pb-0 topbar static-top">
+                <div class="container-fluid">
+                    <form class="form-inline d-sm-inline-block mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
+                        <a href = "technicianhome.html"><img src = "assets/icons/Icon awesome-home.png"/></a>
+                     </form>
+                    <ul class="nav navbar-nav flex-nowrap ml-auto">
+                        <li class="nav-item dropdown no-arrow">
+                            <div class="nav-item dropdown no-arrow"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#"><img class = "mr-2" src = "assets/icons/Icon awesome-user-circle.png"/><span id = "userIdentity" class="d-none d-lg-inline medium">Hi, Fundi</span></a>
+                                
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+    </nav>
+<div class = "container-fluid">
+    <div class = "row">
+        <div class = "col-md-6">
+            <div class = "card p-3 totalCard">
+                <h5 class = "ml-5 font-weight-bold">Available Cash</h5>
+                <p class = "ml-5 mb-0 availableCash"><span class="mr-2">Ksh</span>5,000.00</p>
+                <p class="text-right mb-0"><button class="withdrawbtn" data-toggle="modal" data-target="#withdrawcash">Withdraw</button></p>
+            </div>
+        </div>
+        <div id = "walletimgcol" class = "col-md-6">
+            <div class = "card p-2">
+               <img  id = "walletimg" src = "assets/img/walletbgimage.png" height="90px" width = "200px"/>
+            </div>
+        </div>
+    </div>
+    <!--Start of chart-->
+    <div class="chart-holder">
+
+                <h3 class="secondary-heading mb-4">
+                  Summary Earnings
+                </h3>
+                <section>
+          
+                  <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item waves-effect waves-light">
+                      <a class="nav-link" id="lifetime-tab" data-toggle="tab" href="#lifetime" role="tab" aria-controls="home" aria-selected="false">Life Time</a>
+                    </li>
+                    <li class="nav-item waves-effect waves-light">
+                      <a class="nav-link" id="monthly-tab" data-toggle="tab" href="#monthly" role="tab" aria-controls="profile" aria-selected="false">Monthly</a>
+                    </li>
+                    <li class="nav-item waves-effect waves-light">
+                      <a class="nav-link active" id="weekly-tab" data-toggle="tab" href="#weekly" role="tab" aria-controls="contact" aria-selected="true">Weekly</a>
+                    </li>
+                  </ul>
+                  <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade active show" id="lifetime" role="tabpanel" aria-labelledby="lifetime-tab" >
+                        <div class="card shadow mb-4 chartCard">
+                            <div class="card-body">
+                                <div class="chart-area">
+                                  <canvas class = "chartCanvas" id = "chLineLifetime" height="100" width="455"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="monthly" role="tabpanel" aria-labelledby="monthly-tab">
+                        <div class="card shadow mb-4 chartCard">
+                            <div class="card-body">
+                                <div class="chart-area">
+                                    <canvas class = "chartCanvas" id="chLineMonthly" height="100" width="455"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="weekly" role="tabpanel" aria-labelledby="weekly-tab">
+                        <div class="card shadow mb-4 chartCard">
+                            <div class="card-body">
+                                <div class="chart-area">
+                                    <canvas class = "chartCanvas" id="chLineWeekly" height="100" width="455"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+          
+                </section>
+                <!-- Section: Live preview -->
+          
+            </div>
+      <!--end of chart-->
+      <div id = "lowercards">
+        <div class = "row">
+            <div class="col">
+                <div class="card pt-3">
+                    <div class = "row">
+                        <div class = "col-md-3 align-items-center">
+                           <img class = "cardimgs weekly" src = "assets/icons/Icon awesome-calendar-week.png" width="50px" height="50px"/>
+                        </div>
+                        <div class = "col-md-9">
+                            <h6 class = "text-left ml-3">Weekly Earnings</h6>
+                            <p class = "ml-3">Ksh 1,500.00</p>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+            <div class="col">
+                <div class="card pt-3">
+                    <div class = "row">
+                        <div class = "col-md-3">
+                            <img class = "cardimgs pending" src = "assets/icons/Icon open-timer.png" width="45px" height="45px"/>
+                        </div>
+                        <div class = "col-md-9">
+                            <h6 class = "text-left ml-3">Pending Payments</h6>
+                            <p class = "ml-3">Ksh 3,000.00</p>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+            <div class="col">
+                <div class="card pt-3">
+                    <div class = "row">
+                        <div class = "col-md-3">
+                            <img class = "cardimgs due" src = "assets/icons/Icon material-timelapse.png" width="45px" height="45px"/>
+                        </div>
+                        <div class = "col-md-9">
+                            <h6 class = "text-left ml-3">Total Money Made</h6>
+                            <p class = "ml-3">Ksh 3,000.00</p>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+      </div>
+
+      <div class="modal fade success-popup" id="withdrawcash" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog modal-sm" role="document">
+          <div class="modal-content">
+            
+            <div class="modal-body text-center">
+                <i class = "fas fa-times-circle mt-1" id= "close" aria-label="Close" data-dismiss="modal"></i><br>
+                <form class="text-center">
+                  <p>Enter amount you wish to withdraw</p>
+                  Ksh. <input type="text" name="withdrawalamount"/>
+                  <button type="button" id="submitwithdrawal" data-toggle="modal" data-target="#successwithdrawal">Submit</button>
+                </form>
+            </div>
+            
+          </div>
+        </div>
+      </div> 
+      <div class="modal fade success-popup" id="successwithdrawal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog modal-sm" role="document">
+          <div class="modal-content">
+            
+            <div class="modal-body text-center">
+                <i class = "fas fa-times-circle mt-1" id= "close" aria-label="Close" data-dismiss="modal"></i><br>
+                <p class="text-center">You will recieve money in your Mpesa shortly</p>
+            </div>
+          </div>
+        </div>
+      </div> 
+</div>
+</div>
+</div>
+<a href="#" class="float">
+  <i class="fa fa-comment my-float"></i>
+</a>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script>
+
+         $(document).ready(function () {
+           $("#submitwithdarwal").click(function(){
+               setTimeout(function() {
+                   $('#successwithdarawal').modal('toggle');
+               }, 2000);
+            });
+          });
+        // chart colors
+var colors = ['#f8b609','#28a745','#333333','#c3e6cb','#dc3545','#6c757d'];
+
+/* lifetime chart */
+var chLine = document.getElementById("chLineLifetime");
+var chartData = {
+  labels: ["2016", "2017", "2018", "2019", "2020"],
+  datasets: [{
+    data: [100, 300, 200, 500,600],
+    backgroundColor: 'transparent',
+    borderColor: colors[0],
+    borderWidth: 2,
+    pointBackgroundColor: colors[0]
+  }]
+};
+if (chLine) {
+  new Chart(chLine, {
+  type: 'line',
+  data: chartData,
+  maintainAspectRatio: false,
+  aspectRatio: 1,
+  options: {
+    scales: {
+      xAxes: [{
+        ticks: {
+          beginAtZero: false
+        }
+      }],
+      yAxes: [{
+        ticks: {
+          stepSize: 100
+        }
+      }]
+    },
+    legend: {
+      display: false
+    },
+    responsive: true
+  }
+  });
+}
+
+/* monthly chart */
+var chLine = document.getElementById("chLineMonthly");
+var chartData = {
+  labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+  datasets: [{
+    data: [100, 150, 200, 250, 150, 200, 300,350, 100, 150, 300, 400],
+    backgroundColor: 'transparent',
+    borderColor: colors[0],
+    borderWidth: 2,
+    pointBackgroundColor: colors[0]
+  }]
+};
+if (chLine) {
+  new Chart(chLine, {
+  type: 'line',
+  data: chartData,
+  options: {
+    scales: {
+      xAxes: [{
+        ticks: {
+          beginAtZero: false
+        }
+      }]
+    },
+    legend: {
+      display: false
+    },
+    responsive: true
+  }
+  });
+}
+
+/* weekly chart */
+var chLine = document.getElementById("chLineWeekly");
+var chartData = {
+  labels: ["wk1", "wk2", "wk3", "wk4", "wk5", "wk6", "wk7","wk8", "wk9", "wk10", "wk11", "wk12"],
+  datasets: [{
+    data: [589, 445, 483, 503, 689, 692, 634,589, 445, 483, 503, 689],
+    backgroundColor: 'transparent',
+    borderColor: colors[0],
+    borderWidth: 2,
+    pointBackgroundColor: colors[0]
+  }]
+};
+if (chLine) {
+  new Chart(chLine, {
+  type: 'line',
+  data: chartData,
+  options: {
+    scales: {
+      xAxes: [{
+        ticks: {
+          beginAtZero: false
+        }
+      }]
+    },
+    legend: {
+      display: false
+    },
+    responsive: true
+  }
+  });
+}
+    </script>
+</body>
+
+</html>

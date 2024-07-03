@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Home - FyxTechnologies</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    
+</head>
+<body>
+<div id="wrapper">
+<nav id = "sideBar" class="navbar navbar-dark align-items-start sidebar sidebar-dark accordion bg-gradient-primary p-0 mb-5 mt-1">
+    <div class="container-fluid d-flex flex-column p-0"><a class="navbar-brand d-flex justify-content-center align-items-center sidebar-brand m-0" href="#">
+        <div class="mr-3"><img id="logo" src = "assets/img/Asset 2.svg" width = "130px" height="80px"/></div>
+        </a>
+        <hr class="sidebar-divider mt-2" />
+        <ul class="navbar-nav text-light ml-3 mb-0" id="accordionSidebar">
+            <li class="nav-item"><a class="nav-link" href="profile.html"><img src = "assets/icons/Icon awesome-user-circle.png"/><span class = "nav-li">Profile</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="nojobsyet.html"><img src = "assets/icons/Icon material-dashboard.png"/><span class = "nav-li">Job Dashboard</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="notification.html"><img src = "assets/icons/Icon ionic-md-notifications.png"/><span class = "nav-li">Notification</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="wallet.html"><img src = "assets/icons/Icon awesome-wallet.png"/><span class = "nav-li">Wallet</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="fyxpolicy.html"><img src = "assets/icons/Icon awesome-file-contract.png"/><span class = "nav-li">Fyx Policy</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="https://localhost/fyx-frontend/homepage.html"><img src = "assets/icons/Icon awesome-home.png"/><span class = "nav-li">Home</span></a></li>
+            <li class="nav-item" style = "margin-top: 100px;"><a class="nav-link" href="#"><img src = "assets/icons/Icon awesome-info-circle.png"/><span class = "nav-li">About Us</span></a></li>
+            <li class="nav-item" style = "margin-bottom: 0px; padding-bottom: 5%;"><a class="nav-link" href="#"><img src = "assets/icons/Icon feather-log-out.png"/>  <span class = "nav-li logout">Log Out</span></a></li>
+        </ul>
+        
+    </div>
+</nav>
+<div class="d-flex flex-column" id="content-wrapper">
+    <div id="content">
+        <nav class="navbar navbar-light navbar-expand shadow-sm bg-white mb-3 ml-4 mr-4 mt-1 topbar static-top">
+            <div class="container-fluid">
+                <form class="form-inline d-sm-inline-block mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
+                    <a href = "technicianhome.html"><img src = "assets/icons/Icon awesome-home.png"/></a>
+                 </form>
+                <ul class="nav navbar-nav flex-nowrap ml-auto">
+                    <li class="nav-item dropdown no-arrow">
+                        <div class="nav-item dropdown no-arrow"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#"><img class = "mr-2" src = "assets/icons/Icon awesome-user-circle.png"/><span id = "userIdentity" class="d-none d-lg-inline medium">Hi, Fundi</span></a>
+                            
+                        </div>
+                    </li>
+                </ul>
+            </div>
+</nav>
+ <div class = "container-fluid">
+    <div id = "welcomecard" class = "card mb-2 shadow-sm">
+        <div class="card-body">
+            <div class = "row">
+                <div id = "welcomeimg" class = "col">
+                    <img class = "ml-0" src = "assets/img/techhomeimg.png" height="150px"/>
+                 </div>
+                <div id="welcomewords"  class = "col" >
+                    <h2 class = "text-center">WELCOME Fundi!</h2>
+                </div>
+                   
+            </div>    
+        </div>
+    </div>
+        <div class = "row ml-1 mr-2 mb-4">
+            <div class = "col col-md-9 p-0">
+                <a href = "activejobs.html"><button id = "activejobs"><img src = "assets/icons/Icon material-techdashboard.png"/>  <span>New Jobs</span></button></a>
+                <h6 id = "chartheader">Jobs done per week</h6>
+                <div id = "chartCard" class="card shadow mt-2">
+                    <div class="card-body">
+                        <div class="chart-area">
+                          <canvas class = "chartCanvas" id = "chLineLifetime" height="100" width="455"></canvas>
+                        </div>
+                    </div>
+                    
+                    <select id = "threemonths">
+                        <option id = "janfebmar" value="janfebmar">Jan Feb March</option>
+                        <option id = "aprilmayjune" value="aprilmayjune">April May June</option>
+                        <option id = "julyaugsep" value="julyaugsep">July August September</option>
+                        <option id = "octnovdec" value="octnovdec">October November December</option>
+                    </select>
+           
+                </div>
+            </div>
+            <div class = "col col-md-3 p-0">
+                <div id = "ratingcard" class = "card">
+                    <div class="card-body">
+                        <div class="chart-area">
+                          <canvas id="technicianratings" height="470" width="455"></canvas>
+                      </div>
+                      </div> 
+                      <p id = "ratingparagraph" class = "text-center">Customer Ratings<br><i class = "fa fa-star fa-2x"></i><i class = "fa fa-star fa-2x"></i><i class = "fa fa-star fa-2x"></i><i class = "fa fa-star fa-2x"></i><i class = "fas fa-star-half-alt fa-2x"></i></p> 
+                </div>
+                
+            </div>
+            
+        </div>
+        <div class = "row mb-4">
+            <div id = "note" class = "col-md-4">
+                <p class = "text-center text-danger"><strong>Note:</strong></p>
+            </div>
+            <div id = "notewords" class = "col-md-8">
+               <p class = "text-left small">
+                   Outsourcing of Fyx's Technicians is highly discouraged. In an instance where this happens, we will not be liable for<br>
+                   the damages that may be caused e.g theft, destruction of property etc. by the technician.<br>
+                   Outsourcing of a technician will cause him/her to be let go.
+               </p>
+            </div>
+        </div>
+    
+</div>
+<a href="#" class="float">
+    <i class="fa fa-comment my-float"></i>
+</a>
+
+
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>    
+<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+
+    <script>
+        var colors = ['#f8b609','#28a745','#333333','#c3e6cb','#dc3545','#6c757d'];
+    
+    /* lifetime chart */
+     var chLine = document.getElementById("chLineLifetime");
+     var chartData = {
+      labels: ["2016", "2017", "2018", "2019", "2020"],
+      datasets: [{
+        data: [100, 300, 200, 500,600],
+        backgroundColor: 'transparent',
+        borderColor: colors[0],
+        borderWidth: 2,
+        pointBackgroundColor: colors[0]
+      }]
+    };
+    if (chLine) {
+      new Chart(chLine, {
+      type: 'line',
+      data: chartData,
+      maintainAspectRatio: false,
+      aspectRatio: 1,
+      options: {
+        scales: {
+          xAxes: [{
+            ticks: {
+              beginAtZero: false
+            }
+          }],
+          yAxes: [{
+            ticks: {
+              stepSize: 100
+            }
+          }]
+        },
+        legend: {
+          display: false
+        },
+        responsive: true
+      }
+      });
+    }
+    
+    //technician ratings
+    var chDoughnut = document.getElementById("technicianratings");
+    var chartData = {
+      labels: ["rate", "No rate"],
+      datasets: [{
+        data: [100,25],
+        backgroundColor: ['rgb(88, 89, 93)', 'rgb(248, 182, 9)']
+      }]
+    };
+    if (chDoughnut) {
+      new Chart(chDoughnut, {
+      type: 'doughnut',
+      data: chartData,
+      
+      });
+    }
+    </script>
+</body>
+
+</html>

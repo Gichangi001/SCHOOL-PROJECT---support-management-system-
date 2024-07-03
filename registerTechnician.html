@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Register Technician</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link href="assets/bootstrap/css/cloudfare-bootstrap.css" rel="stylesheet" />
+   
+</head>
+
+<body style="background: url(&quot;assets/img/instruments-electrical-repair.jpg&quot;); background-size: cover;">
+    <div class="container mt-1">
+        <div id = "registerrow" class="row">
+            <div id = "infocolumn" class="col-md-3 hidden-xs">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">Register as a technician for fyx</h4>
+                        <p class="card-text">More convincing info. more convincing info&nbsp;<br>&nbsp;more convincing info&nbsp;more convincing info&nbsp;more convincing info&nbsp;more convincing info&nbsp;<br>&nbsp;more convincing info&nbsp;&nbsp;more convincing info&nbsp;more convincing info&nbsp;<br><br></p>
+                    </div>
+                </div>
+            </div>
+            <div id = "formcolumn" class="col-md-9 mt-5">
+                <form class = "registerform">
+                    <h4>Register Details</h4>
+                    <hr>
+                    <fieldset name = "personaldetails">
+                        <div class = "row">
+                            <div class = "col-md-2">
+                              <label class = "fieldlabel" for = "personaldetails">Personal Details</label>
+                            </div>
+                            <div class = "col-md-10">
+                              <span class = "star">*</span><input type = "text" name = "firstName" placeholder = "First Name">
+                              <span class = "star">*</span><input type = "text" name = "surname" placeholder = "Surname"/>
+                              <span class = "star">*</span><input type = "tel" name = "phoneNumber" placeholder = "Phone Number" /><br>
+                              <span class = "star">*</span><input type = "email" name = "emailAddress" placeholder = "Email Address" />
+                              <span class = "star">*</span><input type = "text" name = "idNumber" placeholder = "ID Number" /><br>
+                            
+                                <span class="btn btn-warning btn-file" id= "passport" >
+                                  Upload A Passport Photo<input type="file">
+                              </span>
+                              
+                               
+                                <span class="btn btn-warning btn-file" id = "uploadID">
+                                  Upload Copy of ID<input type="file">
+                              </span>
+                             
+                              
+                              
+                            </div>
+                        </div>
+                    </fieldset>
+                    
+                    <fieldset name = "locationdetails">
+                        <div class = "row">
+                            <div class = "col-md-2">
+                              <label class = "fieldlabel" for = "locationdetails">Location</label>
+                            </div>
+                            <div class = "col-md-10">
+                               <span class = "star">*</span><select>
+                                   <option value = "location">Location</option>
+                              </select>
+                              <span class = "star">*</span><input type = "text" name = "area" placeholder = "Area"/>
+                              <span class = "star">*</span><input type = "text" name = "street" placeholder = "Street/building"/><br>
+                            </div>
+                        </div>
+                    </fieldset>
+                   
+                    <fieldset name = "specialization">
+                        <div class = "row">
+                            <div class = "col-md-2">
+                              <label class = "fieldlabel" for = "description">Specialization</label>
+                            </div>
+                            <div class = "col-md-10">
+                               <span class = "star">*</span><select>
+                                   <option value = "">Choose</option>
+                                 </select>
+                                 <span class="btn btn-warning btn-file" id = "cvupload">
+                                  Upload Your CV<input type="file">
+                                 </span>
+
+                                 <h5>I have these skills</h5>
+                                 <input id = "repair" class = "checktypes" type = "checkbox"/><span class = "checklabels">Repair</span>
+                                 <div id = "repairskills">
+                                    <input class = "checktypes" type = "checkbox"/><span class = "checklabels">Tv</span>
+                                    <input class = "checktypes" type = "checkbox"/><span class = "checklabels">Phones</span>
+                                    <input class = "checktypes" type = "checkbox"/><span class = "checklabels">Fridge</span>
+                                 </div>
+                                 
+                                 <input id = "maintenance" class = "checktypes" type = "checkbox"/><span class = "checklabels">Maintenance</span>
+                                 <div id = "maintenanceskills">
+                                    <input class = "checktypes droplist" type = "checkbox"/><span class = "checklabels">Tv</span>
+                                    <input class = "checktypes droplist" type = "checkbox"/><span class = "checklabels">Phones</span>
+                                    <input class = "checktypes droplist" type = "checkbox"/><span class = "checklabels">Fridge</span><br>
+                                 </div>
+                                 
+                                 <input id = "installation" class = "checktypes" type = "checkbox"/><span class = "checklabels">Installation</span>
+                                 <div id = "installationskills">
+                                    <input class = "checktypes droplist" type = "checkbox"/><span class = "checklabels">Tv</span>
+                                    <input class = "checktypes droplist" type = "checkbox"/><span class = "checklabels">Phones</span>
+                                    <input class = "checktypes droplist" type = "checkbox"/><span class = "checklabels">Fridge</span><br>
+                                 </div>
+                            </div>
+                        </div>
+                    </fieldset>
+                   
+                      <fieldset class = "mt-3">
+                        <div class = "row">
+                            <button id = "submitRegister" type = "button" data-toggle="modal" data-target="#registerConfirm">Submit</button>
+                        </div>
+                               
+                    </fieldset>
+                </form> 
+             </div>
+         </div>
+            <div class="modal fade success-popup" id="registerConfirm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog modal-sm" role="document">
+                  <div class="modal-content">
+                    <i class = "fas fa-times-circle mt-2 mr-1" id= "closeConfirm" aria-label="Close"></i><br>
+                <h3 class = "text-center">Success!</h3>
+                <p class = "text-center">Your Application has been recieved<br>Kindly wait, a fyx agent will contact after your application has been reviewed.</p>
+                    
+                  </div>
+                </div>
+              </div>  
+        </div>
+        
+    
+        <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    
+    
+</body>
+<script>
+  $(document).ready(function(){
+     $("#repair").click(function(){
+    document.getElementById("repairskills").style.visibility = "visible";
+    document.getElementById("maintenanceskills").style.visibility = "hidden";
+    document.getElementById("installationskills").style.visibility = "hidden";
+   });
+ });
+ $(document).ready(function(){
+     $("#maintenance").click(function(){
+    document.getElementById("maintenanceskills").style.visibility = "visible";
+    document.getElementById("repairskills").style.visibility = "hidden";
+    document.getElementById("installationskills").style.visibility = "hidden";
+   });
+ });
+ $(document).ready(function(){
+     $("#installation").click(function(){
+    document.getElementById("installationskills").style.visibility = "visible";
+    document.getElementById("maintenanceskills").style.visibility = "hidden";
+    document.getElementById("repairskills").style.visibility = "hidden";
+   });
+ });
+    //  $(document).ready(function(){
+    //       $("#submitRegister").click(function(){
+    //         setTimeout(function() {
+    //            $('#registerConfirm').modal('toggle');
+    //        }, 5000);
+    //         window.location.href = "homepage.html";
+    //       });
+          
+    //     });
+        $('#closeConfirm').click(function(){
+          $('#registerConfirm').modal('hide');
+        })
+</script>
+</html>

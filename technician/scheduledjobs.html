@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Jobs - FyxTechnologies</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
+    <link rel="stylesheet" href="assets/css/dataTables.bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/dataTable.reponsive.bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    
+</head>
+<body>
+    <div id="wrapper">
+    <nav id = "sideBar" class="navbar navbar-dark align-items-start sidebar sidebar-dark accordion bg-gradient-primary p-0 mb-5 mt-1">
+        <div class="container-fluid d-flex flex-column p-0"><a class="navbar-brand d-flex justify-content-center align-items-center sidebar-brand m-0" href="#">
+            <div class="mr-3"><img id = "logo" src = "assets/img/Asset 2.svg" width = "130px" height="80px"/></div>
+            </a>
+            <hr class="sidebar-divider mt-2" />
+            <ul class="navbar-nav text-light ml-3 mb-0" id="accordionSidebar">
+                <li class="nav-item"><a class="nav-link" href="profile.html"><img src = "assets/icons/Icon awesome-user-circle.png"/><span class = "nav-li">Profile</span></a></li>
+                <li class="nav-item"><a class="nav-link active" href="nojobsyet.html"><img src = "assets/icons/Icon material-dashboard.png"/><span class = "nav-li">Job Dashboard</span></a></li>
+                <li class="nav-item"><a class="nav-link" href="notification.html"><img src = "assets/icons/Icon ionic-md-notifications.png"/><span class = "nav-li">Notification</span></a></li>
+                <li class="nav-item"><a class="nav-link" href="wallet.html"><img src = "assets/icons/Icon awesome-wallet.png"/><span class = "nav-li">Wallet</span></a></li>
+                <li class="nav-item"><a class="nav-link" href="fyxpolicy.html"><img src = "assets/icons/Icon awesome-file-contract.png"/><span class = "nav-li">Fyx Policy</span></a></li>
+                <li class="nav-item"><a class="nav-link" href="https://localhost/fyx-frontend/homepage.html"><img src = "assets/icons/Icon awesome-home.png"/><span class = "nav-li">Home</span></a></li>
+                <li class="nav-item" style = "margin-top: 100px;"><a class="nav-link" href="#"><img src = "assets/icons/Icon awesome-info-circle.png"/><span class = "nav-li">About Us</span></a></li>
+                <li class="nav-item" style = "margin-bottom: 0px; padding-bottom: 5%;"><a class="nav-link" href="#"><img src = "assets/icons/Icon feather-log-out.png"/>  <span class = "nav-li logout">Log Out</span></a></li>
+            </ul>
+            
+        </div>
+    </nav>
+    <div class="d-flex flex-column" id="content-wrapper">
+        <div id="content">
+            <nav class="navbar navbar-light navbar-expand shadow-sm bg-white mb-3 ml-4 mr-4 mt-1 pt-0 pb-0 topbar static-top">
+                <div class="container-fluid">
+                    <form class="form-inline d-sm-inline-block mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
+                        <a href = "technicianhome.html"><img src = "assets/icons/Icon awesome-home.png"/></a>
+                     </form>
+                    <ul class="nav navbar-nav flex-nowrap ml-auto">
+                        <li class="nav-item dropdown no-arrow">
+                            <div class="nav-item dropdown no-arrow"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#"><img class = "mr-2" src = "assets/icons/Icon awesome-user-circle.png"/><span id = "userIdentity" class="d-none d-lg-inline medium">Hi, Fundi</span></a>
+                                
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+    </nav>
+<div class = "container-fluid">
+    <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a class="nav-link pt-1 pl-4 pr-4 pb-1 shadow-sm" aria-current="page" href= "activejobs.html">New Jobs</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link pt-1 pl-4 pr-4 pb-1 shadow-sm active" aria-current="page" href="scheduledjobs.html">Scheduled Jobs</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link pt-1 pl-4 pr-4 pb-1 shadow-sm" href="jobhistory.html">Job History</a>
+        </li>
+    </ul>
+    <div class = "tables">
+        <div class="card shadow mt-3">
+            <div class="card-body">
+               
+                <table id="example" class="table dt-responsive nowrap" style="width:100%">
+                        <thead>
+                            <tr>
+                              
+                                <th>Order No</th>
+                                <th>Service</th>
+                                <th>Description</th>
+                                <th>Date</th>
+                                <th>Location</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                         <tr>
+                            <td>OR012</td>
+                            <td>Repair</td>
+                            <td>Tv</td>
+                            <td>11/01/2021</td>
+                            <td>Nairobi</td>
+                            <td><button class = "moredetailsbtn text-warning" type = "button" data-toggle="modal" data-target="#jobdetails">More details</button></td>
+                          </tr>
+                        </tbody>
+                        
+                    </table>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="jobdetails" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <i class = "fas fa-times-circle" id = "closejobdetails" data-dismiss="modal"></i>
+                <h4 class="text-center">Order No. OR012</h4>
+                <hr>
+                <div class="modal-body ">
+                    <div id = "services">
+                        <div class = "row m-0">
+                            <div class = "col column1">
+                                <h6 class = "mb-0">Service</h6>
+                            </div>
+                            <div class = "col">
+                                <p class = "mb-0">Repair</p>
+                            </div>
+                        </div>
+                        <div class = "row m-0">
+                            <div class = "col column1">
+                                <h6 class = "mb-0">Description</h6>
+                            </div>
+                            <div class = "col">
+                                <p class = "mb-0">Tv</p>
+                            </div>
+                        </div>
+                        <div class = "row m-0">
+                            <div class = "col column1">
+                                <h6 class = "mb-0">Brand</h6>
+                            </div>
+                            <div class = "col">
+                                <p class = "mb-0">Samsung</p>
+                            </div>
+                        </div>
+                        <div class = "row m-0">
+                            <div class = "col column1">
+                                <h6 class = "mb-0">Serial Number</h6>
+                            </div>
+                            <div class = "col">
+                                <p class = "mb-0">Rtgd 215643789y4</p>
+                            </div>
+                        </div>
+                        <div class = "row m-0">
+                            <div class = "col colum1">
+                                <h6 class = "mb-0">Exact Problem</h6>
+                            </div>
+                            <div class = "col">
+                                <p class = "mb-0">My Tv turned itself off and it won't turn on.</p>
+                            </div>
+                        </div>
+                    </div> 
+                   <div id = "dateandtime">
+                    <div class = "row m-0">
+                        <div class = "col column1">
+                            <h6 class = "mb-0">Date</h6>
+                        </div>
+                        <div class = "col">
+                            <p class = "mb-0">11/01/2021</p>
+                        </div>
+                    </div>
+                    <div class = "row m-0">
+                        <div class = "col column1">
+                            <h6 class = "mb-0">Time</h6>
+                        </div>
+                        <div class = "col">
+                            <p class = "mb-0">10:00 am</p>
+                        </div>
+                    </div>
+                   </div>
+                    <div id = "location">
+                        <div class = "row">
+                            <div class = "col column1">
+                                <h6 class = "mb-0">Location</h6>
+                            </div>
+                            <div class = "col">
+                                <p class = "mb-0">Nairobi</p>
+                            </div>
+                        </div>
+                        <div class = "row">
+                            <div class = "col column1">
+                                <h6 class = "mb-0">Area</h6>
+                            </div>
+                            <div class = "col">
+                                <p class = "mb-0">Kileleshwa</p>
+                            </div>
+                        </div>
+                        <div class = "row">
+                            <div class = "col column1">
+                                <h6 class = "mb-0">Street/Building</h6>
+                            </div>
+                            <div class = "col">
+                                <p class = "mb-0">Kyle Apartments</p>
+                            </div>
+                        </div>
+                        <div class = "row">
+                            <div class = "col column1">
+                                <h6 class = "mb-0">Other location details</h6>
+                            </div>
+                            <div class = "col">
+                                <p class = "mb-0">The Apartments are near the police station</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                 <hr>
+              <p class = "text-center mt-2 mb-4"><img src = "assets/icons/Icon material-check-circle.png"/> <span>Job Scheduled.</span></p>
+          
+          </div>
+        </div>
+      </div>
+</div>
+
+
+</div>
+</div>
+
+</div>
+<a href="#" class="float">
+    <i class="fa fa-comment my-float"></i>
+</a>
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.dataTables.min.js"></script>
+<script src="assets/js/dataTables.bootstrap.min.js"></script>
+<script src="assets/js/dataTables.responsive.min.js"></script>
+<script src="assets/js/responsive.bootstrap.min.js"></script>
+
+<script>
+    $(document).ready(function() {
+    $('#example').DataTable();
+} );
+</script>
+</body>
+
+</html>

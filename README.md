@@ -1,1 +1,0 @@
-# SCHOOL-PROJECT---support-management-system-

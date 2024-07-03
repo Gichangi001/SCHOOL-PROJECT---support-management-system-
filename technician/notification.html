@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Notification - FyxTechnologies</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
+    <link rel="stylesheet" href="assets/css/dataTables.bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/dataTable.reponsive.bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <div id="wrapper">
+    <nav id = "sideBar" class="navbar navbar-dark align-items-start sidebar sidebar-dark accordion bg-gradient-primary p-0 mb-5 mt-1">
+        <div class="container-fluid d-flex flex-column p-0"><a class="navbar-brand d-flex justify-content-center align-items-center sidebar-brand m-0" href="#">
+            <div class="mr-3"><img id = "logo" src = "assets/img/Asset 2.svg" width = "130px" height="80px"/></div>
+            </a>
+            <hr class="sidebar-divider mt-2" />
+            <ul class="navbar-nav text-light ml-3 mb-0" id="accordionSidebar">
+                <li class="nav-item"><a class="nav-link" href="profile.html"><img src = "assets/icons/Icon awesome-user-circle.png"/><span class = "nav-li">Profile</span></a></li>
+                <li class="nav-item"><a class="nav-link" href="nojobsyet.html"><img src = "assets/icons/Icon material-dashboard.png"/><span class = "nav-li">Job Dashboard</span></a></li>
+                <li class="nav-item"><a class="nav-link active" href="notification.html"><img src = "assets/icons/Icon ionic-md-notifications.png"/><span class = "nav-li">Notification</span></a></li>
+                <li class="nav-item"><a class="nav-link" href="wallet.html"><img src = "assets/icons/Icon awesome-wallet.png"/><span class = "nav-li">Wallet</span></a></li>
+                <li class="nav-item"><a class="nav-link" href="fyxpolicy.html"><img src = "assets/icons/Icon awesome-file-contract.png"/><span class = "nav-li">Fyx Policy</span></a></li>
+                <li class="nav-item"><a class="nav-link" href="https://localhost/fyx-frontend/homepage.html"><img src = "assets/icons/Icon awesome-home.png"/><span class = "nav-li">Home</span></a></li>
+                <li class="nav-item" style = "margin-top: 100px;"><a class="nav-link" href="#"><img src = "assets/icons/Icon awesome-info-circle.png"/><span class = "nav-li">About Us</span></a></li>
+                <li class="nav-item" style = "margin-bottom: 0px; padding-bottom: 5%;"><a class="nav-link" href="#"><img src = "assets/icons/Icon feather-log-out.png"/>  <span class = "nav-li logout">Log Out</span></a></li>
+            </ul>
+            
+        </div>
+    </nav>
+    <div class="d-flex flex-column" id="content-wrapper">
+        <div id="content">
+            <nav class="navbar navbar-light navbar-expand shadow-sm bg-white mb-3 ml-4 mr-4 mt-1 pt-0 pb-0 topbar static-top">
+                <div class="container-fluid">
+                    <form class="form-inline d-sm-inline-block mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
+                        <a href = "technicianhome.html"><img src = "assets/icons/Icon awesome-home.png"/></a>
+                     </form>
+                    <ul class="nav navbar-nav flex-nowrap ml-auto">
+                        <li class="nav-item dropdown no-arrow">
+                            <div class="nav-item dropdown no-arrow"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#"><img class = "mr-2" src = "assets/icons/Icon awesome-user-circle.png"/><span id = "userIdentity" class="d-none d-lg-inline medium">Hi, Fundi</span></a>
+                                
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+    </nav>
+<div class = "container-fluid">
+  <h4 class = "shadow-sm" id = "notification-header">Notification from the Admin</h4>  
+  <div class = "tables">
+    <div class="card shadow mt-3">
+        <div class="card-body">
+            <table id="example" class="table dt-responsive nowrap" style="width:100%">
+                    <thead>
+                       
+                          
+                            <th>Order No</th>
+                            <th>Status</th>
+                            <th>Reason</th>
+                            <th></th>
+                       
+                    </thead>
+                    <tbody>
+                     <tr>
+                        <td>OR012</td>
+                        <td class = "text-danger">Request Declined</td>
+                        <td>Lorem ipsum is a placeholder text commonly used to demonstrate the<br> visual form of a document or a typeface<br>without relying on meaningful content.</td>
+                        <td><i id = "delete" class = "fas fa-trash-alt text-danger"><span class = "text-danger ml-2">Delete</span></i></td>
+                      </tr>
+                      <tr>
+                        <td>OI047</td>
+                        <td class = "text-success">Request Approved</td>
+                        <td class = "text-center font-weight-bold">___</td>
+                        <td><i id = "delete" class = "fas fa-trash-alt text-danger"><span class = "text-danger ml-2">Delete</span></i></td>
+                      </tr>
+                    </tbody>
+                    
+                </table>
+            
+        </div>
+    </div>
+</div>
+
+</div>
+</div>
+</div>
+<a href="#" class="float">
+    <i class="fa fa-comment my-float"></i>
+</a>
+<script>
+    
+</script>
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="assets/js/jquery.dataTables.min.js"></script>
+<script src="assets/js/dataTables.bootstrap.min.js"></script>
+<script src="assets/js/dataTables.responsive.min.js"></script>
+<script src="assets/js/responsive.bootstrap.min.js"></script>
+<script>
+$(document).ready(function() {
+$('#example').DataTable();
+} );
+</script>
+</body>
+
+</html>
