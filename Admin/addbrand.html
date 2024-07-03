@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw==" crossorigin="anonymous" />
+  <link rel="stylesheet" href="assets/css/styles2.css" type="text/css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <title>Miniform</title>
+</head>
+
+<body>
+  <!-- Top Nav -->
+  <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+    <a class="navbar-brand" href="#"><img class="img-fluid" src="assets/img/Asset 2.svg" alt="Fyx-logo" width = "120px" height="40px"></a>
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" id="admin-name" href="#admin-profile"><img  src="assets/icons/Icon awesome-user-circle.png" alt=""> Hi, Admin</a>
+        </li>
+      </ul>
+  </nav>
+
+
+  <div class="container-fluid">
+    <div class="row">
+
+      <!-- Side Bar -->
+      <div class="col-3 p-lg-2 sticky-sidebar position-fixed" id="accordionSidebar">
+        <div class="nav flex-column flex-nowrap vh-100 " id="sidebar">
+          <div class="sidebar-header">
+            <a href = "dashboard.html"><img src = "assets/icons/Icon awesome-home.png"/><span>Dashboard</span> </a>
+          </div>
+          <hr class="sidebar-divider">
+
+          <h6 class="text-uppercase">Modules</h6>
+
+          <ul class="navbar-nav text-light pl-4" id="accordionSidebar">
+            <li class="nav-item">
+              <div class="dropdown show">
+                <a class="nav-link  sidebar-item" href="#" role="button" id="dropdownMenuLink" data-toggle="collapse" data-toggle="dropdown"  data-target="#collapseOne" aria-haspopup="true" aria-expanded="false">
+                  <img class="mr-2" src = "assets/icons/icons8-purchase-order-50.png" width="20px" height="20px"/> <span>Order Management <i class="fas fa-plus"></i></span>
+                </a>
+      
+                <div class="dropdown-menu mr-4" aria-labelledby="dropdownMenuLink"  id="collapseOne" class="collapse">
+                  <a class="dropdown-item" href="neworders.html">New</a>
+                  <a class="dropdown-item" href="scheduledorders.html">Scheduled</a>
+                  <a class="dropdown-item" href="orderhistory.html">History</a>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item">
+              <div class="dropdown show">
+                <a class="nav-link sidebar-item" href="#" role="button" id="dropdownMenuLink" data-toggle="collapse" data-toggle="dropdown"  data-target="#collapseTwo" aria-haspopup="true" aria-expanded="false">
+                  <img class="mr-2" src = "assets/icons/Icon metro-profile.png" width="20px" height="14px"/> <span>Technician Management <i class="fas fa-plus"></i></span>
+                </a>
+      
+                <div class="dropdown-menu mr-4" aria-labelledby="dropdownMenuLink"  id="collapseTwo" class="collapse show">
+                  <a class="dropdown-item" href="technicians.html">Technicians</a>
+                  <a class="dropdown-item" href="techregistrations.html">Registrations</a>
+                  <a class="dropdown-item" href="technotifications.html">Notifications</a>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item">
+              <div class="dropdown show">
+                <a class="nav-link  sidebar-item" href="#" role="button" id="dropdownMenuLink" data-toggle="collapse" data-toggle="dropdown"  data-target="#collapseThree" aria-haspopup="true" aria-expanded="false">
+                  <img class="mr-2" src = "assets/icons/Icon metro-profile.png" width="20px" height="14px"/> <span>Client Management <i class="fas fa-plus"></i></span>
+                </a>
+      
+                <div class="dropdown-menu mr-4" aria-labelledby="dropdownMenuLink"  id="collapseThree" class="collapse show">
+                  <a class="dropdown-item" href="callrequests.html">Call Requests</a>
+                  <a class="dropdown-item" href="clientdetails.html">Clients</a>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item">
+              <div class="dropdown show">
+                <a class="nav-link  sidebar-item" href="#" role="button" id="dropdownMenuLink" data-toggle="collapse" data-toggle="dropdown"  data-target="#collapseFour" aria-haspopup="true" aria-expanded="false">
+                  <img class="mr-2" src = "assets/icons/Icon map-finance.png" width="20px" height="13px"/> <span>Finance Module <i class="fas fa-plus"></i></span>
+                </a>
+      
+                <div class="dropdown-menu mr-4" aria-labelledby="dropdownMenuLink"  id="collapseFour" class="collapse show">
+                  <a class="dropdown-item" href="payments.html">Payments</a>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item">
+              <div class="dropdown show">
+                <a class="nav-link  sidebar-item" href="#" role="button" id="dropdownMenuLink" data-toggle="collapse" data-toggle="dropdown"  data-target="#collapseFive" aria-haspopup="true" aria-expanded="false">
+                  <img class="mr-2" src = "assets/icons/Icon material-comment.png" width="20px" height="20px"/><span>Communication <i class="fas fa-plus"></i></span>
+                </a>
+    
+                <div class="dropdown-menu mr-4" aria-labelledby="dropdownMenuLink"  id="collapseFive" class="collapse show">
+                <a class="dropdown-item" href="livechats.html">Live Chats</a>
+                <a class="dropdown-item" href="newsletter.html">Newsletters</a>
+              </div>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href = "usermanagement.html" >
+                <img class="mr-2" src = "assets/icons/Icon awesome-user-circle.png" width="20px" height="20px"/> <span> User Management</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <div class="dropdown show">
+                <a class="nav-link active  sidebar-item" href="#" role="button" id="dropdownMenuLink" data-toggle="collapse" data-toggle="dropdown"  data-target="#collapseSix" aria-haspopup="true" aria-expanded="false">
+                  <img class="mr-2" src = "assets/icons/Icon metro-upload2.png" width="20px" height="20px"/> <span>Content Management <i class="fas fa-plus"></i></span>
+                </a>
+
+
+                <div class="dropdown-menu show mr-4" id = "collapseSix" aria-labelledby="dropdownMenuLink">
+                  <a class="dropdown-item" href="carousel.html">Carousel</a>
+                  <a class="dropdown-item active" href="miniform.html">Mini form</a>
+                  <a class="dropdown-item" href="advertisement.html">Advertisements</a>
+                  <a class="dropdown-item" href="comments.html">Comments</a>
+                  <a class="dropdown-item" href="fyxpolicy.html">Fyx Policy</a>
+                </div>
+              </div>
+            </li>
+          </ul>
+          
+          <hr class="sidebar-divider">
+    <li class="nav-item" ><a class="nav-link" href="#"><img src = "assets/icons/Icon feather-log-out.png"/>  <span class = "nav-li logout">Logout</span></a></li>
+        </div>
+      </div>
+
+      <!-- Content -->
+      <div class="col-9 offset-3 main">
+  <h2>Homepage Miniform</h2>
+  <h6><strong>Dashboard/Content Management/</strong><strong class = "text-warning">Miniform</strong></h6>
+  <hr id = "contentdivider">
+  <a href = "miniform.html"><i id = "canceledit" class = "fas fa-times-circle "></i></a>
+  <br/><br/>
+   <div class = "row">
+     <div class = "col">
+        <p>Brands<img class="addsign-brand" src="assets/icons/Icon ionic-md-add-circle.png"/></p>
+
+     </div>
+     <div class = "col">
+       <p>Services<img class="addsign" src="assets/icons/Icon ionic-md-add-circle.png"/></p>
+    </div>
+    <div class = "col">
+       <p>Description</p>
+    </div>
+   </div>
+   <form id="addbrands">
+       <div class="row mb-3">
+           <div id="brands"class="col">
+               <input type = "text" name="brand" placeholder="Brand 1" />
+               <i class = "fas fa-trash-alt position-absolute text-danger mt-1 ml-1"></i><br/><br/>
+           </div>
+           <div id="brandservices" class="col">
+               <select>
+                   <option selected>Repair</option>
+                   <option>Installation</option>
+                   <option>Maintenance</option>
+               </select>
+               <br/>
+               <select>
+                <option selected>Repair</option>
+                <option>Installation</option>
+                <option>Maintenance</option>
+            </select>
+            <br/>
+            <select>
+             <option selected>Repair</option>
+             <option>Installation</option>
+             <option>Maintenance</option>
+           </select>
+         </div>
+         <div id="branddescriptions" class="col">
+            <select>
+                <option selected>Air Conditioner, Washing Machine, Cooler, ...</option>
+                <option>Air Conditioner, Washing Machine, Cooler, ...</option>
+                <option>Air Conditioner, Washing Machine, Cooler, ...</option>
+            </select>
+            <br/>
+            <select>
+             <option selected>Air Conditioner, Washing Machine, Cooler, ...</option>
+             <option>Air Conditioner, Washing Machine, Cooler, ...</option>
+             <option>Air Conditioner, Washing Machine, Cooler, ...</option>
+         </select>
+         <br/>
+         <select>
+          <option selected>Air Conditioner, Washing Machine, Cooler, ...</option>
+          <option>Air Conditioner, Washing Machine, Cooler, ...</option>
+          <option>Air Conditioner, Washing Machine, Cooler, ...</option>
+        </select>
+        </div>
+       </div>
+       <div class="row mb-2">
+        <div id="brands"class="col">
+            <input type = "text" name="brand" placeholder="Brand 2" />
+            <i class = "fas fa-trash-alt position-absolute text-danger mt-1 ml-1"></i><br/><br/>
+        </div>
+        <div id="brandservices" class="col">
+            <select>
+                <option selected>Repair</option>
+                <option>Installation</option>
+                <option>Maintenance</option>
+            </select>
+            <br/>
+            <select>
+             <option selected>Repair</option>
+             <option>Installation</option>
+             <option>Maintenance</option>
+         </select>
+         <br/>
+         <select>
+          <option selected>Repair</option>
+          <option>Installation</option>
+          <option>Maintenance</option>
+        </select>
+      </div>
+      <div id="branddescriptions" class="col">
+         <select>
+             <option selected>Air Conditioner, Washing Machine, Cooler, ...</option>
+             <option>Air Conditioner, Washing Machine, Cooler, ...</option>
+             <option>Air Conditioner, Washing Machine, Cooler, ...</option>
+         </select>
+         <br/>
+         <select>
+          <option selected>Air Conditioner, Washing Machine, Cooler, ...</option>
+          <option>Air Conditioner, Washing Machine, Cooler, ...</option>
+          <option>Air Conditioner, Washing Machine, Cooler, ...</option>
+      </select>
+      <br/>
+      <select>
+       <option selected>Air Conditioner, Washing Machine, Cooler, ...</option>
+       <option>Air Conditioner, Washing Machine, Cooler, ...</option>
+       <option>Air Conditioner, Washing Machine, Cooler, ...</option>
+     </select>
+     </div>
+    </div>
+    <p class="text-center"><button type="button" id="savebrand">Save Changes</button></p>
+   </form>
+   
+</div>
+
+</div>
+</div>
+<a href="#" class="float">
+<i class="fa fa-comment my-float"></i>
+</a>
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    
+</body>
+
+</html>
