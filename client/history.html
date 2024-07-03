@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Order History - FyxTechnologies</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/dataTables.bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/dataTable.reponsive.bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <div  id="wrapper">
+    <nav id = "sideBar" class="navbar navbar-dark align-items-start sidebar sidebar-dark accordion bg-gradient-primary p-0 mb-5 mt-1">
+        <div class="container-fluid d-flex flex-column p-0"><a class="navbar-brand d-flex justify-content-center align-items-center sidebar-brand m-0" href="#">
+            <div class="mr-3"><img id = "logo" src = "assets/img/Asset 2.svg" width = "130px" height="80px"/></div>
+            </a>
+            <hr class="sidebar-divider mt-2" />
+            
+            <ul class="navbar-nav text-light ml-3 mb-0" id="accordionSidebar">
+                <li class="nav-item"><a class="nav-link" href="profile.html"><img src = "assets/icons/Icon awesome-user-circle.png"/><span class = "nav-li">Profile</span></a></li>
+                <li class="nav-item"><a class="nav-link active" href="history.html"><img src = "assets/icons/Icon awesome-history.png"/><span class = "nav-li">History</span></a></li>
+                <li class="nav-item"><a class="nav-link" href="bookservice.html"><img src = "assets/icons/Icon material-queue.png"/><span class = "nav-li">Book a Service</span></a></li>
+                <li class="nav-item"><a class="nav-link" href="orders.html"><img src = "assets/icons/icons8-purchase-order-50.png" width = "25px" height = "25px"/><span class = "nav-li">Orders</span></a></li>
+                <li class="nav-item"><a class="nav-link" href="feedback.html"><img src = "assets/icons/Icon material-feedback.png"/><span class = "nav-li">Feedback</span></a></li>
+                <li class="nav-item"><a class="nav-link" href="fyxpolicy.html"><img src = "assets/icons/Icon awesome-file-contract.png"/><span class = "nav-li">Fyx Policy</span></a></li>
+                <li class="nav-item"><a class="nav-link" href="https://localhost/fyx-frontend/homepage.html"><img src = "assets/icons/Icon awesome-home.png"/><span class = "nav-li">Home</span></a></li>
+                <li class="nav-item" style = "margin-top: 70px;"><a class="nav-link" href="#"><img src = "assets/icons/Icon awesome-info-circle.png"/><span class = "nav-li">About Us</span></a></li>
+                <li class="nav-item" style = "margin-bottom: 0px; padding-bottom: 5%;"><a class="nav-link" href="#"><img src = "assets/icons/Icon feather-log-out.png"/>  <span class = "nav-li logout">Log Out</span></a></li>
+            </ul>
+            
+        </div>
+    </nav>
+    <div class="d-flex flex-column" id="content-wrapper">
+        <div id="content">
+            <nav class="navbar navbar-light navbar-expand shadow-sm bg-white mb-3 ml-4 mr-4 mt-1 topbar static-top">
+                <div class="container-fluid">
+                    <form class="form-inline d-sm-inline-block mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
+                        <a href = "customerhome.html"><img src = "assets/icons/Icon awesome-home.png"/></a>
+                     </form>
+                    <ul class="nav navbar-nav flex-nowrap ml-auto">
+                        <li class="nav-item dropdown no-arrow">
+                            <div class="nav-item dropdown no-arrow"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#"><img class = "mr-2" src = "assets/icons/Icon awesome-user-circle.png"/><span id = "userIdentity" class="d-none d-lg-inline medium">Hi, Nicole</span></a>
+                                
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+    </nav>
+<div class = "container-fluid">
+ <div class = "tables">
+    <div class="card shadow">
+        <div class="card-header py-3">
+            <p class="text-dark m-0 font-weight-bold">Order History</p>
+        </div>
+        <div class="card-body">
+            <table id="example" class="table dt-responsive nowrap" style="width:100%">
+                    <thead>
+                            <th>Date</th>
+                            <th>Order No</th>
+                            <th>Service</th>
+                            <th>Technician</th>
+                            <th>Invoice</th>
+                            <th>Receipt</th>
+                            <th></th>
+                    </thead>
+                    <tbody>
+                       <tr>
+                        <td>11/01/2021</td>
+                        <td>OR012</td>
+                        <td>Blender Repair</td>
+                        <td>Nafuna Musundi</td>
+                        <td><img class = "ml-3" src = "assets/icons/Icon payment-invoice-sign-alt.png"/></td>
+                        <td><img class = "ml-3" src = "assets/icons/Icon awesome-receipt.png"/></td>
+                        <td><button class = "claimbtn text-warning" type = "button" data-toggle="modal" data-target="#raiseclaim" href = "">Raise a claim</button></td>
+                      </tr>
+                      <tr>
+                        <td>17/02/2021</td>
+                        <td>OI047</td>
+                        <td>TV Installation</td>
+                        <td>Other Technician</td>
+                        <td><img class = "ml-3" src = "assets/icons/Icon payment-invoice-sign-alt.png"/></td>
+                        <td><img class = "ml-3" src = "assets/icons/Icon awesome-receipt.png"/></td>
+                        <td></td>
+                      </tr>
+                    </tbody>
+                    
+                </table>
+        </div>
+    </div>
+   
+ </div>
+
+    
+<div class="modal fade" id="raiseclaim" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Raise Claim for Order OR012</h5>
+      </div>
+      <div class="modal-body ">
+          <p class = "text-center">We're really sorry <br> Tell us what went wrong</p>
+          <div id = "smile"><img src = "assets/icons/Icon feather-smile.png"/></div><br>
+          <div>
+            <form>
+               <div class = "row">
+                   <input class = "inputRadio" type = "radio" name = "TechnicianBehaviour" value = "TechnicianBehaviour"/>
+                   <label class = "radioLabel" for = "TechnicianBehaviour">Technician Behaviour</label>
+               </div>
+               <div class = "row">
+                   <input class = "inputRadio" type = "radio" name = "CustomerService" value = "CustomerService"/>
+                   <label class = "radioLabel" for = "CustomerService">Customer Service</label>
+               </div>
+               <div class = "row">
+                   <input class = "inputRadio" type = "radio" name = "QualityofService" value = "QualityofService"/>
+                   <label class = "radioLabel" for = "QualityofService">Quality of Service</label>
+               </div>
+               <div class = "row">
+                   <input class = "inputRadio" type = "radio" name = "ItemFixed" value = "ItemFixed"/>
+                   <label class = "radioLabel" for = "ItemFixed">Item Fixed</label>
+               </div>
+               <div class = "row">
+                   <input class = "inputRadio" type = "radio" name = "others" value = "others"/>
+                   <label class = "radioLabel" for = "others">Others</label>
+               </div>
+              <label for = "explainfurther">Explain Further</label><br>
+              <textarea id = "explainTextarea" name = "explainfurther" placeholder="What went wrong? How can we do better?"></textarea>
+            </form>
+         </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class = "cancelclaim" data-dismiss="modal">Cancel</button>
+        <button type="button" class ="claimsubmit">Submit</button>
+      </div>
+    </div>
+  </div>
+</div>
+     
+</div> 
+</div>
+<a href="#" class="float">
+    <i class="fa fa-comment my-float"></i>
+</a>
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="assets/js/jquery.dataTables.min.js"></script>
+<script src="assets/js/dataTables.bootstrap.min.js"></script>
+<script src="assets/js/dataTables.responsive.min.js"></script>
+<script src="assets/js/responsive.bootstrap.min.js"></script>
+
+<script>
+    $(document).ready(function() {
+    $('#example').DataTable();
+} );
+</script>
+</body>
+
+</html>

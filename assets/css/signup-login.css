@@ -1,0 +1,147 @@
+.register-photo {
+  background: #f1f7fc;
+  padding: 0px 0;
+  margin-left: 150px;
+  margin-right: 200px;
+  margin-top: 50px;
+}
+@media only screen and (max-width:600px){
+  .register-photo {
+    margin: 50px 0px 0px 0px;
+  }
+  #icon-login span{
+    margin: 2px 40px;
+  }
+  .already {
+    margin-top: 30px;
+  }
+  
+}
+@media only screen and (max-width:1000px){
+  .register-photo {
+    margin: 0;
+  }
+  #icon-login span{
+    margin: 2px 40px;
+  }
+  .register-photo form {
+    width:700px;
+  }
+  
+}
+#icon-login i {
+  background-color: white;
+  border-radius: 50%;
+  border: 1px solid #f8b609;
+  padding: 0px;
+}
+#icon-login span{
+  margin: 2px 10px;
+}
+.register-photo .image-holder {
+  display: table-cell;
+  width: 700px;
+  background:url(../../assets/img/bgimage.jpeg) no-repeat;
+  background-size: 140%;
+ 
+}
+
+
+.register-photo .form-container {
+  display: table;
+  max-width: 1200px;
+  width: 100%;
+  min-height: 500px;
+ 
+ 
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
+  border-radius: 30px;
+}
+
+.register-photo form {
+  display: table-cell;
+  width: 50%;
+  background-color: #ffffff;
+  padding: 20px 50px;
+  color: #505e6c;
+}
+@media (max-width:1000px) {
+  .register-photo form {
+    padding: 10px;
+  }
+}
+.register-photo form h2 {
+  font-size: 24px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.register-photo form .form-control {
+  border: groove;
+  width: 100%;
+  border-bottom: 1px solid #dfe7f1;
+  border-radius: 25px;
+  box-shadow: none;
+  outline: none;
+  color: inherit;
+  text-indent: 6px;
+  height: 40px;
+}
+
+.register-photo form .form-check {
+  font-size: 12px;
+  line-height: 20px;
+  margin-right:10px;
+  margin-bottom: 10px;
+  text-align: right;
+}
+.register-photo form .form-check a {
+  color: black;
+}
+.register-photo form .btn-primary {
+  background: #f8b609;
+  border: none;
+  border-radius: 20px;
+  padding: 11px;
+  box-shadow: none;
+  margin-top: 5px;
+  text-shadow: none;
+  outline: none !important;
+}
+
+.register-photo form .btn-primary:hover, .register-photo form .btn-primary:active {
+  background: #58595b;
+}
+
+.register-photo form .btn-primary:active {
+  transform: translateY(1px);
+}
+
+.register-photo form .already {
+  display: block;
+  text-align: left;
+  font-size: 15px;
+  color: #6f7a85;
+  opacity: 0.9;
+  text-decoration: none;
+}
+
+.register-photo form .already a {
+  color: #f8b609;
+}
+.register-photo form .fa-google {
+  background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+.register-photo form .fa-facebook-f {
+  
+  color: #4285f4;
+  background-color: #fff;
+}
+
+#lockicon{
+  color:black;
+}

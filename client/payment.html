@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Book Service - FyxTechnologies</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    
+</head>
+<body>
+    <div id="wrapper">
+    <nav id = "sideBar" class="navbar navbar-dark align-items-start sidebar sidebar-dark accordion bg-gradient-primary p-0 mb-5 mt-1">
+        <div class="container-fluid d-flex flex-column p-0"><a class="navbar-brand d-flex justify-content-center align-items-center sidebar-brand m-0" href="#">
+            <div class="mr-3"><img id = "logo" src = "assets/img/Asset 2.svg" width = "130px" height="80px"/></div>
+            </a>
+            <hr class="sidebar-divider mt-2" />
+            
+            <ul class="navbar-nav text-light ml-3 mb-0" id="accordionSidebar">
+                <li class="nav-item"><a class="nav-link" href="profile.html"><img src = "assets/icons/Icon awesome-user-circle.png"/><span class = "nav-li">Profile</span></a></li>
+                <li class="nav-item"><a class="nav-link" href="history.html"><img src = "assets/icons/Icon awesome-history.png"/><span class = "nav-li">History</span></a></li>
+                <li class="nav-item"><a class="nav-link" href="bookservice.html"><img src = "assets/icons/Icon material-queue.png"/><span class = "nav-li">Book a Service</span></a></li>
+                <li class="nav-item"><a class="nav-link active" href="orders.html"><img src = "assets/icons/icons8-purchase-order-50.png" width = "25px" height = "25px"/><span class = "nav-li">Orders</span></a></li>
+                <li class="nav-item"><a class="nav-link" href="feedback.html"><img src = "assets/icons/Icon material-feedback.png"/><span class = "nav-li">Feedback</span></a></li>
+                <li class="nav-item"><a class="nav-link" href="fyxpolicy.html"><img src = "assets/icons/Icon awesome-file-contract.png"/><span class = "nav-li">Fyx Policy</span></a></li>
+                <li class="nav-item"><a class="nav-link" href="https://localhost/fyx-frontend/homepage.html"><img src = "assets/icons/Icon awesome-home.png"/><span class = "nav-li">Home</span></a></li>
+                <li class="nav-item" style = "margin-top: 100px;"><a class="nav-link" href="#"><img src = "assets/icons/Icon awesome-info-circle.png"/><span class = "nav-li">About Us</span></a></li>
+                <li class="nav-item" style = "margin-bottom: 0px; padding-bottom: 5%;"><a class="nav-link" href="#"><img src = "assets/icons/Icon feather-log-out.png"/>  <span class = "nav-li logout">Log Out</span></a></li>
+            </ul>
+            
+        </div>
+    </nav>
+    <div class="d-flex flex-column" id="content-wrapper">
+        <div id="content">
+            <nav class="navbar navbar-light navbar-expand shadow-sm bg-white mb-3 ml-4 mr-4 mt-1 topbar static-top">
+                <div class="container-fluid">
+                    <form class="form-inline d-sm-inline-block mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
+                        <a href = "customerhome.html"><img src = "assets/icons/Icon awesome-home.png"/></a>
+                     </form>
+                    <ul class="nav navbar-nav flex-nowrap ml-auto">
+                        <li class="nav-item dropdown no-arrow">
+                            <div class="nav-item dropdown no-arrow"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#"><img class = "mr-2" src = "assets/icons/Icon awesome-user-circle.png"/><span id = "userIdentity" class="d-none d-lg-inline medium">Hi, Nicole</span></a>
+                                
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+    </nav>
+<div class="container-fluid">
+    <ul class="nav nav-pills mb-3">
+        <li class="nav-item ml-3">
+          <a class="nav-link pt-1 pl-4 pr-4 pb-1 shadow-sm active" aria-current="page" href= "activeorders.html">Active Orders</a>
+        </li>
+        <li class="nav-item ml-3">
+            <a class="nav-link pt-1 pl-4 pr-4 pb-1 shadow-sm" href="scheduledorders.html">Scheduled Orders</a>
+       </li>
+    </ul>
+    <div id = "paymentsummary">
+        <div class = "card shadow-sm no-gutters">
+           <div class="card-header">
+                <h5 class="text-center">Summary for Order No. OR012</h5>
+            </div>  
+            <div class="card-body">
+                <h6>Service Charge</h6>
+                <div class="row ml-3">
+                    <div class="col">
+                        <p>Assessment Fee</p>
+                    </div>
+                    <div class="col">
+                        <p>Ksh 500</p>
+                    </div>
+                </div>
+                <div class="row ml-3">
+                    <div class="col">
+                        <p>Labor Fee</p>
+                    </div>
+                    <div class="col">
+                        <p>Ksh 3000</p>
+                    </div>
+                </div>
+                <h6>Item Replaced</h6>
+                <div class="row ml-3">
+                    <div class="col">
+                        <p>Tv Screen</p>
+                    </div>
+                    <div class="col">
+                        <p>Ksh 20,000</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <h6>Total Amount</h6>
+                    </div>
+                    <div class="col ml-2">
+                        <p>Ksh 23,500</p>
+                    </div>
+                </div>
+                <br>
+                <h5 class = "text-center">Mode of Payment</h5>
+                <button id = "mpesa">Mpesa</button>
+                <button id = "cash">Cash</button>
+            </div>
+
+        </div>
+    </div>
+    <div id = "mpesapayment">
+        <p class = "text-center">If a pop up does not appear for you to make the payment via Mpesa,<br>
+            kindly pay the Total amount with the <strong>Buy Goods Till Number below</strong> then <br>
+            show the Mpesa message to the technician 
+        </p>
+        <p class = "text-center"><strong>5500223</strong></p>
+    </div>
+   <div id = "cashpayment">
+       <p class = "text-center">Kindly give the Technician the Total Amount money for the service.</p>
+   </div>
+   <div class = "text-center" id = "ordercomplete">
+    <a href = "ratingtechnician.html"><button id = "ordercompletebtn">Order Complete</button></a>
+   </div>
+  
+</div>
+<a href="#" class="float">
+    <i class="fa fa-comment my-float"></i>
+</a>
+
+</div> 
+  <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script>
+        // when you click Mpesa
+        $(document).ready(function(){
+            $("#mpesa").click(function(){
+            document.getElementById("mpesapayment").style.visibility = "visible";
+            document.getElementById("mpesa").style.backgroundColor = "#f8b609";
+            document.getElementById("cash").style.backgroundColor = "#fff";
+            document.getElementById("paymentsummary").style.marginTop = "20px";
+            document.getElementById("ordercomplete").style.visibility = "visible";
+            document.getElementById("ordercompletebtn").style.marginTop = "70px";
+            document.getElementById("cashpayment").style.visibility = "hidden";
+            });
+          });
+        // when you click Cash
+        $(document).ready(function(){
+            $("#cash").click(function(){
+            document.getElementById("cashpayment").style.visibility = "visible";
+            document.getElementById("cash").style.backgroundColor = "#f8b609";
+            document.getElementById("mpesa").style.backgroundColor = "#fff";
+            document.getElementById("paymentsummary").style.marginTop = "30px";
+            document.getElementById("ordercomplete").style.visibility = "visible";
+            document.getElementById("ordercompletebtn").style.marginTop = "30px";
+            document.getElementById("mpesapayment").style.visibility = "hidden";
+            });
+          });
+        
+    </script>
+</body>
+</html>

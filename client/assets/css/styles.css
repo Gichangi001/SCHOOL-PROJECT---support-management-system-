@@ -1,0 +1,1808 @@
+@media screen and (max-width: 767px){
+div.dataTables_wrapper div.dataTables_length, div.dataTables_wrapper div.dataTables_filter, div.dataTables_wrapper div.dataTables_info, div.dataTables_wrapper div.dataTables_paginate {
+    text-align: left;
+}
+div.dataTables_wrapper div.dataTables_filter input {
+    margin-left: .1em;
+    display: block;
+    width: 100%;
+}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    body{
+        margin: 10px 100px 20px 100px;
+    }
+    #sideBar{
+        border-radius: 20px; min-height:600px; max-height:900px;
+    }
+    #content{
+        background-color: #fff;
+        color: #000;
+    }
+    #logo{
+        width: 70%;
+    }
+    #userIdentity{
+        color:#000;
+    }
+    .navbar .navbar-nav .nav-item .nav-link:active{
+        background-color: #ffffff;
+        color: #000;
+        border-radius: 10px;
+        font-weight: 600;
+    }
+    .navbar .navbar-nav .nav-item .nav-link{
+        font-size: medium;
+        font-weight: 600;
+    }
+    .navbar .navbar-nav .nav-item .nav-li{
+        margin-left: 10px;
+    }
+    .logout{
+        color:black;
+    }
+    /* .tables{
+        color:black;
+    }
+    .tables table th{
+        color:#58595b;
+    }
+    .tables table tr{
+        color:#000;
+    } */
+    .bookingform hr{
+        height: 1px;
+        border-width:0;
+        background-color:black;
+        width: 100%;
+    }
+    .bookingform h4{
+        color:black; 
+        font-weight: 600;
+    }
+    #model{
+        margin-left: 10px;
+    }
+    .bookingform label{
+        color:black;
+    }
+    .bookingform .fieldlabel{
+       color:black;
+       font-weight: bold;
+    }
+    .spaceleft{
+        margin-left: 50px;
+    }
+    .bookingform input{
+        width: 100%;
+        border-radius: 5px;
+        height: 30px;
+        border: none;
+        padding-left: 10px;
+        margin: 5px 5px 5px 0;
+        background-color: #e8e9ed;
+        border-color: #e8e9ed;
+    }
+    .orderbtns{
+        background-color: #fff;
+        border:1px solid #f8b609;
+        border-radius: 20px;
+        padding: 2px 10px;
+    }
+    #closesatisfaction{
+        color:#000;
+        float: right;
+    }
+    .bookingform select{
+        width: 100%;
+        height: 30px;
+        border-radius: 5px;
+        padding-left: 10px;
+        margin: 0 10px 5px 0;
+        background-color: #e8e9ed;
+        border-color: #e8e9ed;
+    }
+    .bookingform .otherinputs{
+        width:530px;
+         margin-left: 10px;
+    }
+    .bookingform select option{
+        color:#000;
+    }
+    .bookingform textarea{
+        width:530px;
+        border-radius: 5px;
+        margin-left: 10px;
+        background-color: #e8e9ed;
+        border-color: #e8e9ed;
+        
+    }
+    .bookingform fieldset{
+        margin-bottom: 20px;
+    }
+    .bg-gradient-primary {
+        background:rgba(88, 89, 91,0.5);
+        background-size:cover
+    }
+    
+    #booktechnician{
+        background-color: #f8b609;
+        color:#fff;
+        padding: 2px 15px 2px 15px;
+        border-radius: 20px;
+        margin-left: 400px;
+        border: none;
+    }
+    #requestcall {
+        text-decoration: underline #f8b609;
+        color: black;
+    }
+    table .claimbtn{
+        border:none;
+        background-color: azure;
+    }
+    #raiseclaim{
+        margin-top: 50px;
+        margin-left: 750px;
+        width:400px;
+    
+    }
+    #welcomeimg{
+        visibility: visible;
+    }
+    #raiseclaim form textarea{
+        width:100%;
+    }
+    #raiseclaim .claimsubmit{
+        background-color: #f8b609;
+        color:white;
+        border-radius: 20px;
+        padding: 2px 20px 2px 20px;
+        border: none;
+    }
+    #raiseclaim .cancelclaim{
+        background-color: #ffffff;
+        color:black;
+        border-radius: 20px;
+        border:1px solid #f8b609;
+        float: left;
+        padding: 2px 15px 2px 15px;
+        margin-right: 170px;
+    }
+    #successMessage{
+        margin:0px 20px 20px 20px;
+        border:1px solid #f8b609;
+        border-radius: 10px;
+        padding: 5px 5px;
+    }
+    #successMessage h2{
+        color:black;
+    }
+    #successMessage p{
+        font-size: 18px;
+    }
+    #callLink a{
+        text-decoration: underline #f8b609;
+        color: black;
+        margin-left:20px;
+    }
+    #imageHolder img{
+        margin-left: 50px;
+        margin-top: 0px;
+    }
+    
+    #formholder{
+        margin-left:35%;
+    }
+    @media(max-width:1439px){
+        #formholder{
+            margin-left:15%;
+        }
+    }
+    .updateprofileform input{
+       background-color: #e8e9ed;
+       border: none;
+       border-radius: 5px;
+       padding-left: 10px;
+       width: 100%;
+    }
+    .updateprofileform label{
+        color: black;
+    }
+    .updateprofileform #updateProfile{
+        background-color: #f8b609;
+        border-color: #f8b609;
+        padding: 2px 20px 2px 20px;
+        color: white;
+        border-radius: 20px;
+        border: none;
+        margin-right: 200px;
+    }
+    .container-fluid form .fa {
+        top: 35px;
+        left: 88%;
+      }
+      .container-fluid form  .email .fa {
+        top: 35px;
+        left:88%;
+      } 
+      @media(max-width:1439px){
+        .container-fluid form .fa {
+            top: 35px;
+            left: 80%;
+          }
+          .container-fluid form .confirm{
+            top: 58px;
+            left: 80%;
+          }
+          .container-fluid form  .email .fa {
+            top: 35px;
+            left:86%;
+          } 
+    }
+      form #profileupdated{
+        background-color: #ffffff;
+        border-color: #f8b609;
+        padding: 2px 20px 2px 20px;
+        color: black;
+        border-radius: 20px;
+        margin-left: 130px;
+    }
+    #bookservice{
+        background-color: #fff;
+        color: black;
+        border: 1px solid #f8b609;
+        border-radius: 20px;
+        padding: 3px 15px 3px 15px;
+        margin-left: 100px;
+    }
+    #bookservice:hover{
+        background-color: #f8b609;
+    }
+    form .feedtextarea{
+        width:350px;
+        height: 100px;
+        padding:10px;
+        margin-left: 0px;
+        background-color: white;
+        color: #000;
+        border: 1px solid #000; 
+        
+    }
+    form .submitfeed{
+        background-color: #f8b609;
+        color: #fff;
+        border:none;
+        border-radius: 20px;
+        padding: 2px 15px 2px 15px;
+        margin-top: 10px;
+        margin-right: 130px;
+    }
+    form .star{
+        color:red;
+        font-size: 25px;
+        margin-right: 1px;
+    }
+    #receiptsent {
+        border: 1px solid #f8b609;
+        background-color: #e8e9ed;
+        color:black;
+        margin-left:30px;
+        border-radius: 20px;
+        padding: 2px 5px 2px 5px;
+    }
+    #ballonimg{
+        visibility: visible;
+    }
+    #payment i{
+        float: right; margin-top: 3px; margin-right: 3px;
+    }
+    #requestcall i{
+        float: right; margin-top: 3px; margin-right: 3px;
+    }
+    #upperpart {
+        margin-top: 10px;
+    }
+    #upperpart h2{
+        color: black;
+        font-weight: 800;
+    }
+    #ballooncolumn {
+        margin: 10px 0px 0px 100px;
+    }
+    #textcolumn{
+        margin-top: 80px;
+        margin-left: -50px;
+        color:black;
+    }
+    #textcolumn h2{
+        font-weight: 700;
+    }
+    #rating #close{
+        float:right;
+    }
+    #satisfiedquery{
+        color:black;
+    }
+    #ratingCard{
+        height: 300px; 
+        width:400px; 
+        margin-left: 350px; 
+        margin-top: 10px;
+    }
+    #submitrating{
+        background-color: #f8b609;
+        color: #fff;
+        border:none;
+        border-radius: 20px;
+        padding: 2px 15px 2px 15px;
+        margin-left:150px;
+    }
+    #orderdetails{
+        visibility: hidden;
+    }
+    
+    #ratingcomment {
+        margin-left: 50px;
+        width: 250px;
+        height: 80px;
+    }
+    #thankMessage {
+        color:black;
+        font-weight: 500;
+        margin-top:100px;
+        visibility: hidden;
+    }
+    #arrivedbtns{
+        visibility: hidden;
+    }
+    #trackorder {
+        background-color: #f8b609;
+        color: #fff;
+        border:none;
+        border-radius: 20px;
+        padding: 2px 15px 2px 15px;
+    }
+    #technicianarrive {
+        color:black;
+        font-weight: 700;
+    }
+    #techniciannotarrived {
+        background-color: white;
+        color:black;
+        border-radius: 5px;
+        border: 1px solid #f8b609;
+        margin-right: 50px;
+    }
+    #technicianarrived{
+        background-color: #f8b609;
+        color:white;
+        border-radius: 5px;
+        border: none;
+    }
+    #satisfactionMessage {
+        margin: 200px 100px 0px 100px;
+        border: 1px solid #f8b609;
+        color: #000;
+        padding: 10px 5px 10px 5px;
+        border-radius: 5px;
+    }
+    #notsatisfied{
+        background-color: white;
+        color:black;
+        border-radius: 5px;
+        border: 1px solid #f8b609;
+        margin-right:50px;
+    }
+    #satisfied{
+        background-color: white;
+        color:black;
+        border-radius: 5px;
+        border: 1px solid #f8b609;
+    }
+    #payment{
+        border: 1px solid #000;
+        margin:10px 300px 0px 300px;
+        visibility: hidden; 
+    }
+    #paymentlink{
+        color: black;
+        text-decoration: #f8b609 underline;
+    }
+    #requestcall{
+        border: 1px solid #000;
+        margin:-70px 300px 0px 300px;
+        visibility: hidden;
+    }
+    #requestlink{
+        text-decoration: underline #f8b609;
+        color: black;
+    }
+    #paymentsummary{
+        height: 300px;
+        width:400px; 
+        margin-left: 320px; 
+        margin-top: 100px;
+        color:black;
+    }
+    #paymentsummary  h5{
+        font-weight: 800;
+    }
+    #paymentsummary  h6{
+         font-weight: 700;
+    }
+    #mpesa{
+        background-color: white;
+        color:black;
+        border-radius: 20px;
+        border: 1px solid #f8b609;
+        margin-top: 5px;
+        margin-left: 70px;
+        padding:0px 10px 0px 10px;
+    }
+    #mpesapayment {
+        border: 1px solid #f8b609;
+        margin: 120px 200px 0px 200px;
+        padding: 5px 10px 0px 10px;
+        background-color: #e8e9ed;
+        color: black;
+        border-radius: 30px;
+        visibility: hidden;
+    }
+    #raiseclaim .modal-title{
+        margin-left:50px;
+    }
+    #smile{
+        margin-left:150px;
+    }
+    .email input{
+        width:95%;
+    }
+    #cash {
+        background-color: white;
+        color:black;
+        border-radius: 20px;
+        border: 1px solid #f8b609;
+        margin-left: 90px;
+        padding:0px 15px 0px 15px;
+    }
+    #cashpayment {
+        border: 1px solid #f8b609;
+        margin: -100px 200px 0px 200px;
+        background-color: #e8e9ed;
+        color: black;
+        border-radius: 30px;
+        visibility: hidden;
+    }
+    #ordercomplete{
+        visibility: hidden;
+    }
+    #ordercompletebtn {
+        background-color: #f8b609;
+        color: #000;
+        border: none;
+        padding: 0px 10px 0px 10px;
+        border-radius: 20px;
+    }
+    #fyxpolicy{
+        color:black;
+        margin: 230px 0px 0px 20px;
+    }
+    #fyxpolicy h1{
+        font-size: 70px;
+    }
+    #bookbtn{
+        margin:20px 0px 10px 0px;
+        background-color: #fff;
+        color: #000;
+        border: 1px solid #f8b609;
+        border-radius: 20px;
+    }
+    #bookbtn:hover{
+        background-color: #f8b609;
+    }
+    .orders{
+        background: #e8e9ed;
+        padding: 30px 50px 50px 50px;
+        margin-left: 20px;
+        color:black;
+    }
+    #ordersimage{
+        margin-bottom: 30px;
+        margin-top: 50px;
+        opacity: 0.8;
+    }
+    .orders h4{
+       font-weight: 800;
+       margin-top: 20px;
+    }
+    #successprofileupdate{
+        margin-top: 300px;
+        margin-left: 100px;
+        color: #000;
+    }
+    #successprofileupdate .modal-content{
+         background-color: #e8e9ed;
+         color: #000;
+         border: 1px solid #f8b609;
+         border-radius: 20px;
+    }
+    #confirmbtn{
+        background-color: #f8b609;
+        color: #fff;
+        padding: 3px 10px 3px 10px;
+        border-radius: 10px;
+        border: none;
+    }
+    .feedback{
+        color:black;
+    }
+    .feedback h3{
+        font-weight: 600;
+    }
+    #services{
+        margin-left: 20px;
+        margin-bottom: 25px;
+    }
+    
+    #dateandtime{
+        margin-left: 25px;
+    }
+    #location{
+        margin-left: 30px;
+        margin-top: 25px;
+    }
+    #jobsummary {
+        width: 400px;
+        margin: 0px 200px 50px 300px;
+        color:black;
+    }
+    #jobsummary  h5{
+        font-weight: 800;
+        margin-top: 20px;
+    }
+    #jobsummary  hr{
+        width: 80%;
+        margin: 2px 10px 2px 40px;
+        height: 0.5px;
+        background-color: #000;
+    }
+    
+    #acceptjob{
+        background-color: #f8b609;
+        border: none;
+        padding: 0px 20px 0px 20px;
+        color: black;
+        border-radius: 20px;
+        margin-right: 100px;
+    }
+    #declinejob{
+        background-color: #fff;
+        border:1px solid #f8b609;
+        padding: 0px 25px 0px 25px;
+        color: black;
+        border-radius: 25px;
+       margin-right: 70px;
+       margin-left: 20px;
+    }
+    #jobapproved{
+        margin-top: -30px;
+        visibility: hidden;
+    }
+    #declinereason{
+        margin: 130px 0px 0px -60px;
+        padding: 10px 10px 5px 10px;
+       
+    }
+    #declinereason .modal-content{
+        width: 400px;
+        background-color: #e8e9ed;
+        color: #000;
+        border:1px solid #f8b609;
+        border-radius: 20px;
+       
+    }
+    #declinereason form{
+        text-align: center;
+    }
+    #declinereason form textarea{
+        width:300px;
+        height: 80px;
+        margin-bottom: 20px;
+    }
+    #declinereason form a{
+        font-weight: 700;
+        color: #000;
+    }
+    #submitdeclinereason{
+        border-radius: 20px;
+        background-color: #f8b609;
+        color: #fff;
+        border: none;
+        margin:20px 20px;
+        padding: 1px 15px 1px 15px;
+    }
+    #submitMessage .modal-content{
+        margin:350px 350px 0px 100px;
+        background-color: #e8e9ed;
+        color: #000;
+        border: 1px solid #f8b609;
+        border-radius: 40px;
+    }
+    #confirmsubmit{
+        border-radius: 20px;
+        background-color: #f8b609;
+        color: #fff;
+        border: none;
+        margin-left: 130px;
+        padding: 1px 15px 1px 15px;
+    }
+    .moredetailsbtn{
+        border:none;
+        background-color: #fff;
+        text-decoration:#000 underline;
+    }
+    #pendingapproval{
+        margin-top: 250px;
+        margin-left: -10px;
+    }
+    #pendingapproval .modal-content{
+        border-radius: 50px;
+        border: 1px solid #f8b609;
+        height: 120px;
+        background-color: #e8e9ed;
+        color: #000;
+    }
+    
+    #jobdetails hr{
+        width: 80%;
+        margin: 2px 10px 2px 40px;
+        height: 0.5px;
+        background-color: #000;
+    }
+    #jobdetails  h4{
+        font-weight: 800;
+        margin: 20px 0px 10px 0px;
+    }
+    #jobdetails{
+        margin-top: 50px;
+        margin-left: 120px;
+    }
+    #jobdetails .modal-content{
+        color:black;
+        border-radius: 30px;
+    }
+    #jobdetails .column1{
+        color: #58595b;
+        font-weight: 600;
+    }
+    #jobsummary .column1{
+        color: #58595b;
+        font-weight: 600;
+    }
+    #successprofileupdate{
+        margin-top: 300px;
+        margin-left: 100px;
+        color: #000;
+    }
+    #successprofileupdate .modal-content{
+        background-color: #e8e9ed;
+        color: #000;
+        border: 1px solid #f8b609;
+        border-radius: 20px;
+    }
+    #jobsimage{
+        margin-left: 300px;
+        margin-bottom: 50px;
+        margin-top: 70px;
+        opacity: 0.8;
+    }
+    .jobs{
+        background: #e8e9ed;
+        padding: 30px 50px 30px 50px;
+        margin-left: 20px;
+        color:black;
+        padding-bottom: 110px;
+    }
+    .jobs h4{
+        font-weight: 800;
+    }
+    #refresh{
+        margin-left: 450px;
+    }
+    #refresh span{
+        text-decoration: #f8b609 underline;
+        color: #000;
+    }
+    #activejobs{
+        background-color: white;
+        color: #000;
+        padding: 2px 20px 2px 20px;
+        border: 1px solid #f8b609;
+        border-radius: 20px;
+    }
+    #activejobs span{
+        font-weight: 700;
+    }
+    #feedbackForm label{
+        color: black;
+    }
+    .float{
+        position:fixed;
+        width:60px;
+        height:60px;
+        bottom:40px;
+        right:110px;
+        background-color:#03aB4e;
+        color:#FFF;
+        border-radius:50px;
+        text-align:center;
+        box-shadow: 1px 1px 0px #999;
+    }
+    #raiseclaim .modal-header{
+        background-color:#f8b609; 
+        color:white;
+    }
+    .inputRadio{
+        margin:5px 0px 0px 100px; 
+    }
+    .radioLabel{
+        margin-left:10px;
+    }
+    #explainTextarea{
+        height: 100px;
+    }
+    .my-float{
+        margin-top:22px;
+    }
+    #welcomewords{
+        margin-left: 250px;
+    }
+    #welcomewords h2{
+        font-weight: 700;
+    }
+    #womanSitting{
+        visibility: visible;
+        margin-left: 200px;
+    }
+    #requestfyx{
+        color:black;
+        margin-left: -100px;
+    }
+    #notewords{
+        margin-left: -50px;
+    }
+    #closejobdetails{
+        margin-left: 470px;
+        margin-top: 10px;
+    }
+    @media(max-width:1439px){
+        #welcomewords{
+            margin-left: 30px;
+        }
+        #womanSitting{
+            visibility: visible;
+            margin-left: 60px;
+        }
+    }
+}
+
+/* tilted-phones and tablets */
+@media only screen and (max-width: 992px) {
+    body{
+        margin:0%;
+    }
+    #sideBar{
+        min-height:600px; 
+        max-height:900px;
+        margin: 5px;
+        border-radius: 20px;
+    }
+    #content{
+        background-color: #fff;
+        color: #000;
+    }
+    #userIdentity{
+        color:#000;
+    }
+    .bg-gradient-primary {
+        background:rgba(88, 89, 91,0.5);
+        background-size:cover
+    }
+    .nav-li{
+        margin-left: 5px;
+    }
+    .nav-item{
+        padding-right: 35px;
+    }
+    .col, .col-md-6 {
+        width: 40%;
+    }
+    #logo{
+        width:70%;
+    }
+    #editprofile{
+        width: 20%;
+        height: 20%;
+    }
+    .updateprofileform input{
+        background-color: #e8e9ed;
+       border: none;
+       border-radius: 5px;
+       padding-left: 10px;
+        width: 100%;
+    }
+    .container-fluid form .fa {
+        display: none;
+      }
+      .container-fluid form  .email .fa {
+        display: none;
+      } 
+    #updateProfile{
+        background-color: #f8b609;
+        border-color: #f8b609;
+        padding: 2px 20px 2px 20px;
+        color: white;
+        border-radius: 20px;
+        border: none;
+        margin-right: 30px;
+    }
+    /* table{
+        width: 30%;
+    } */
+    .claimbtn{
+        border:none;
+        background-color: azure;
+    }
+    #raiseclaim .modal-header{
+        background-color:#f8b609; 
+        color:white;
+    }
+    #raiseclaim{
+        margin-left:100px ;
+        width:400px;
+    
+    }
+    #raiseclaim form textarea{
+        width:100%;
+    }
+    #raiseclaim h5{
+       font-size: 17px;
+    }
+    #raiseclaim .claimsubmit{
+        background-color: #f8b609;
+        color:white;
+        border-radius: 20px;
+        padding: 2px 20px 2px 20px;
+        border: none;
+        margin-left: 10px;
+    }
+    #raiseclaim .cancelclaim{
+        background-color: #ffffff;
+        color:black;
+        border-radius: 20px;
+        border:1px solid #f8b609;
+        float: left;
+        padding: 2px 15px 2px 15px;
+        margin-right: 150px;
+    }
+    .inputRadio{
+        margin:5px 0px 0px 90px; 
+    }
+    .radioLabel{
+        margin-left:10px;
+    }
+    #smile{
+        margin-left:130px;
+    }
+    .bookingform hr{
+        height: 1px;
+        border-width:0;
+        background-color:black;
+        width: 100%;
+    }
+    .bookingform h4{
+        color:black; 
+        font-weight: 600;
+    }
+    .bookingform label{
+        color:black;
+    }
+    .bookingform .fieldlabel{
+       color:black;
+       font-weight: bold;
+    }
+    
+    .bookingform input{
+        width: 100%;
+        border-radius: 5px;
+        height: 30px;
+        border: none;
+        padding-left: 10px;
+        margin: 5px 5px 5px 0;
+        background-color: #e8e9ed;
+        border-color: #e8e9ed;
+    }
+    .bookingform span{
+        visibility: hidden;
+    }
+    .bookingform select{
+        width: 100%;
+        height: 30px;
+        border-radius: 5px;
+        padding-left: 10px;
+        margin: 0 10px 5px 0;
+        background-color: #e8e9ed;
+        border-color: #e8e9ed;
+    }
+    .bookingform select option{
+        color:#000;
+    }
+    .bookingform textarea{
+        width:100%;
+        border-radius: 5px;
+        background-color: #e8e9ed;
+        border-color: #e8e9ed;
+        
+    }
+    .bookingform .otherinputs{
+        width:100%;
+    }
+    .bookingform fieldset{
+        margin-bottom: 20px;
+    }
+    .float{
+        position:fixed;
+        width:40px;
+        height:40px;
+        bottom:40px;
+        right:20px;
+        background-color:#03aB4e;
+        color:#FFF;
+        border-radius:50px;
+        text-align:center;
+        box-shadow: 1px 1px 0px #999;
+    }
+    .my-float{
+        margin-top:11px;
+    }
+    .moredetailsbtn{
+        border:none;
+        background-color: #fff;
+        text-decoration:#000 underline;
+    }
+    #jobdetails hr{
+        width: 80%;
+        margin: 2px 10px 2px 40px;
+        height: 0.5px;
+        background-color: #000;
+    }
+    #jobdetails  h4{
+        font-weight: 600;
+        margin: 20px 0px 10px 0px;
+    }
+    #jobdetails{
+        margin-left: 30px;
+    }
+    #jobdetails .modal-content{
+        width: 300px;
+        color:black;
+        border-radius: 30px;
+    }
+    #jobdetails .column1{
+        color: #58595b;
+        font-weight: 600;
+    }
+    #closejobdetails{
+        margin-left: 270px;
+        margin-top: 10px;
+    }
+    #services{
+        
+        margin-bottom: 15px;
+    }
+    #location{
+        
+        margin-top: 15px;
+    }
+    #successMessage{
+        margin:0px 20px 20px 20px;
+        border:1px solid #f8b609;
+        border-radius: 10px;
+        padding: 5px 5px;
+    }
+    #successMessage h2{
+        color:black;
+    }
+    #successMessage p{
+        font-size: 18px;
+    }
+    #callLink a{
+        text-decoration: underline #f8b609;
+        color: black;
+        margin-left:20px;
+        font-size: 15px;
+    }
+    #imageHolder img{
+        margin-left: 50px;
+        margin-top: 0px;
+    }
+    #orderdetails{
+        visibility: hidden;
+    }
+    #trackorder {
+        background-color: #f8b609;
+        color: #fff;
+        border:none;
+        border-radius: 20px;
+        padding: 2px 10px 2px 10px;
+    }
+    #arrivedbtns{
+        visibility: hidden;
+    }
+    #technicianarrive {
+        color:black;
+        font-weight: 700;
+    }
+    #techniciannotarrived {
+        background-color: white;
+        color:black;
+        border-radius: 5px;
+        border: 1px solid #f8b609;
+        margin-right: 25px;
+    }
+    #technicianarrived{
+        background-color: #f8b609;
+        color:white;
+        border-radius: 5px;
+        border: none;
+    }
+    #imageHolder{
+       display:none;
+    }
+    form .feedtextarea{
+        width:100%;
+        height: 100px;
+        padding:10px;
+        margin-left: 0px;
+        background-color: white;
+        color: #000;
+        border: 1px solid #000; 
+        
+    }
+    form .submitfeed{
+        background-color: #f8b609;
+        color: #fff;
+        border:none;
+        border-radius: 20px;
+        padding: 2px 15px 2px 15px;
+        margin-top: 10px;
+    }
+    .orders{
+        background: #e8e9ed;
+        color:black;
+    }
+    #ordersimage{
+        width: 90%;
+        margin-bottom: 10px;
+        margin-top: 40px;
+        opacity: 0.8;
+    }
+    .orders h4{
+       font-weight: 700;
+       font-size: 18px;
+       margin-top: 10px;
+    }
+    #bookbtn{
+        margin:20px 0px 10px 0px;
+        background-color: #fff;
+        color: #000;
+        border: 1px solid #f8b609;
+        border-radius: 20px;
+    }
+    #bookbtn:hover{
+        background-color: #f8b609;
+    }
+    #booktechnician{
+        background-color: #f8b609;
+        color:#fff;
+        padding: 2px 10px 2px 10px;
+        border-radius: 20px;
+        margin-left: 200px;
+        border: none;
+    }
+    .orderbtns{
+        background-color: #fff;
+        border:1px solid #f8b609;
+        border-radius: 20px;
+        padding: 2px 10px;
+    }
+    #closesatisfaction{
+        color:#000;
+        float: right;
+    }
+    #satisfactionMessage {
+        margin: 50px 0px 0px 20px;
+        color: #000;
+        border: 1px solid #f8b609;
+        padding: 10px 5px 10px 5px;
+        border-radius: 5px;
+    }
+    #notsatisfied{
+        background-color: white;
+        color:black;
+        border-radius: 5px;
+        border: 1px solid #f8b609;
+        margin-right:25px;
+    }
+    #satisfied{
+        background-color: white;
+        color:black;
+        border-radius: 5px;
+        border: 1px solid #f8b609;
+    }
+    #payment i{
+        float: right; margin-top: 3px; margin-right: 3px;
+    }
+    #requestcall i{
+        float: right; margin-top: 3px; margin-right: 3px;
+    }
+    #payment{
+        border: 1px solid #000;
+        margin:10px ;
+        visibility: hidden; 
+    }
+    #paymentlink{
+        color: black;
+        text-decoration: #f8b609 underline;
+    }
+    #requestcall{
+        border: 1px solid #000;
+        margin:-70px 20px 0px 20px;
+        visibility: hidden;
+    }
+    #requestlink{
+        text-decoration: underline #f8b609;
+        color: black;
+    }
+    #mpesa{
+        background-color: white;
+        color:black;
+        border-radius: 20px;
+        border: 1px solid #f8b609;
+        margin-top: 5px;
+        margin-left: 50px;
+        padding:0px 10px 0px 10px;
+    }
+    #mpesapayment {
+        border: 1px solid #f8b609;
+        margin: 12px 10px 0px 10px;
+        padding: 5px 10px 0px 10px;
+        background-color: #e8e9ed;
+        color: black;
+        font-size: small;
+        border-radius: 30px;
+        visibility: hidden;
+    }
+    #cash {
+        background-color: white;
+        color:black;
+        border-radius: 20px;
+        border: 1px solid #f8b609;
+        margin-left: 60px;
+        padding:0px 10px 0px 10px;
+    }
+    #cashpayment {
+        border: 1px solid #f8b609;
+        margin: -110px 20px 0px 20px;
+        background-color: #e8e9ed;
+        color: black;
+        border-radius: 30px;
+        font-size: small;
+        visibility: hidden;
+    }
+    #ordercomplete{
+        visibility: hidden;
+    }
+    #ordercompletebtn {
+        background-color: #f8b609;
+        color: #000;
+        border: none;
+        padding: 0px 10px 0px 10px;
+        border-radius: 20px;
+       
+    }
+    #ballonimg{
+        visibility: hidden;
+    }
+    #textcolumn{
+        margin-top: 20px;
+        margin-left: -200px;
+        color:black;
+    }
+    #textcolumn h2{
+        font-weight: 600;
+        font-size: 18px;
+    }
+    #receiptsent {
+        border: 1px solid #f8b609;
+        background-color: #e8e9ed;
+        color:black;
+        border-radius: 20px;
+        
+    }
+    #ratingCard{
+        height: 400px; 
+        width:300px; 
+        margin-left: 60px; 
+        margin-top: 10px;
+    }
+    #submitrating{
+        background-color: #f8b609;
+        color: #fff;
+        border:none;
+        border-radius: 20px;
+        padding: 2px 15px 2px 15px;
+        margin-left:90px;
+    }
+    #ratingcomment {
+        width: 260px;
+        height: 80px;
+    }
+    #thankMessage {
+        color:black;
+        font-weight: 500;
+        margin-top:100px;
+        visibility: hidden;
+    }
+    #rating #close{
+        float:right;
+    }
+    #bookservice{
+        background-color: #fff;
+        color: black;
+        border: 1px solid #f8b609;
+        border-radius: 20px;
+        padding: 1px 10px 1px 10px;
+        margin-left: 30px;
+    }
+    #bookservice:hover{
+        background-color: #f8b609;
+    }
+    #requestfyx{
+        margin-top: -100px;
+    }
+    .star{
+        display: none;
+    }
+    @media(min-width:1024px){
+        
+    }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    body{
+        margin:0%;
+    }
+    #sideBar{
+        min-height:600px; 
+        max-height:900px;
+        margin: 5px;
+        border-radius: 20px;
+    }
+    #content{
+        background-color: #fff;
+        color: #000;
+    }
+    #userIdentity{
+        color:#000;
+    }
+    .bg-gradient-primary {
+        background:rgba(88, 89, 91,0.5);
+        background-size:cover
+    }
+    .nav-item{
+        padding-right: 50px;
+    }
+    #logo{
+        width:100%;
+    }
+    #editprofile{
+        width: 70%;
+        height: 70%;
+    }
+    .updateprofileform input{
+       background-color: #e8e9ed;
+       border: none;
+       border-radius: 5px;
+       padding-left: 10px;
+        width: 100%;
+    }
+    .container-fluid form .fa {
+        display: none;
+      }
+      .container-fluid form  .email .fa {
+        display: none;
+      } 
+    #updateProfile{
+        background-color: #f8b609;
+        border-color: #f8b609;
+        padding: 2px 20px 2px 20px;
+        color: white;
+        border-radius: 20px;
+        border: none;
+        margin-right: 10px;
+    }
+    /* table{
+        width: 30%;
+    } */
+    .claimbtn{
+        border:none;
+        background-color: azure;
+    }
+    #raiseclaim .modal-header{
+        background-color:#f8b609; 
+        color:white;
+    }
+    #raiseclaim{
+        margin-left:30px ;
+        width:300px;
+    
+    }
+    #raiseclaim form textarea{
+        width:100%;
+    }
+    #raiseclaim h5{
+       font-size: 17px;
+    }
+    #raiseclaim .claimsubmit{
+        background-color: #f8b609;
+        color:white;
+        border-radius: 20px;
+        padding: 2px 20px 2px 20px;
+        border: none;
+    }
+    #raiseclaim .cancelclaim{
+        background-color: #ffffff;
+        color:black;
+        border-radius: 20px;
+        border:1px solid #f8b609;
+        float: left;
+        padding: 2px 15px 2px 15px;
+        margin-right: 70px;
+    }
+    .inputRadio{
+        margin:5px 0px 0px 60px; 
+    }
+    .radioLabel{
+        margin-left:10px;
+    }
+    #smile{
+        margin-left:90px;
+    }
+    .bookingform hr{
+        height: 1px;
+        border-width:0;
+        background-color:black;
+        width: 100%;
+    }
+    .bookingform h4{
+        color:black; 
+        font-weight: 600;
+    }
+    .bookingform label{
+        color:black;
+    }
+    .bookingform .fieldlabel{
+       color:black;
+       font-weight: bold;
+    }
+    .bookingform input{
+        width: 100%;
+        border-radius: 5px;
+        height: 30px;
+        border: none;
+        padding-left: 10px;
+        margin: 5px 5px 5px 0;
+        background-color: #e8e9ed;
+        border-color: #e8e9ed;
+    }
+    .bookingform span{
+        visibility: hidden;
+    }
+    .bookingform select{
+        width: 100%;
+        height: 30px;
+        border-radius: 5px;
+        padding-left: 10px;
+        margin: 0 10px 5px 0;
+        background-color: #e8e9ed;
+        border-color: #e8e9ed;
+    }
+    .bookingform select option{
+        color:#000;
+    }
+    .bookingform textarea{
+        width:100%;
+        border-radius: 5px;
+        background-color: #e8e9ed;
+        border-color: #e8e9ed;
+        
+    }
+    .bookingform .otherinputs{
+        width:100%;
+    }
+    .bookingform fieldset{
+        margin-bottom: 10px;
+    }
+    .float{
+        position:fixed;
+        width:40px;
+        height:40px;
+        bottom:40px;
+        right:20px;
+        background-color:#03aB4e;
+        color:#FFF;
+        border-radius:50px;
+        text-align:center;
+        box-shadow: 1px 1px 0px #999;
+    }
+    .my-float{
+        margin-top:11px;
+    }
+    .moredetailsbtn{
+        border:none;
+        background-color: #fff;
+        text-decoration:#000 underline;
+    }
+    #jobdetails hr{
+        width: 80%;
+        margin: 2px 10px 2px 40px;
+        height: 0.5px;
+        background-color: #000;
+    }
+    #jobdetails  h4{
+        font-weight: 600;
+        margin: 20px 0px 10px 0px;
+    }
+    #jobdetails{
+        margin-left: 30px;
+    }
+    #jobdetails .modal-content{
+        width: 300px;
+        color:black;
+        border-radius: 30px;
+    }
+    #jobdetails .column1{
+        color: #58595b;
+        font-weight: 600;
+    }
+    #closejobdetails{
+        margin-left: 270px;
+        margin-top: 10px;
+    }
+    #services{
+        
+        margin-bottom: 15px;
+    }
+    #location{
+        
+        margin-top: 15px;
+    }
+    #successMessage{
+        margin:0px 20px 20px 20px;
+        border:1px solid #f8b609;
+        border-radius: 10px;
+        padding: 5px 5px;
+    }
+    #successMessage h2{
+        color:black;
+    }
+    #successMessage p{
+        font-size: 18px;
+    }
+    #callLink a{
+        text-decoration: underline #f8b609;
+        color: black;
+        margin-left:20px;
+        font-size: 15px;
+    }
+    #imageHolder img{
+        margin-left: 50px;
+        margin-top: 0px;
+    }
+    #orderdetails{
+        visibility: hidden;
+    }
+    #trackorder {
+        background-color: #f8b609;
+        color: #fff;
+        border:none;
+        border-radius: 20px;
+        padding: 2px 10px 2px 10px;
+    }
+    #arrivedbtns{
+        visibility: hidden;
+    }
+    #technicianarrive {
+        color:black;
+        font-weight: 700;
+    }
+    #techniciannotarrived {
+        background-color: white;
+        color:black;
+        border-radius: 5px;
+        border: 1px solid #f8b609;
+        margin-right: 25px;
+    }
+    #technicianarrived{
+        background-color: #f8b609;
+        color:white;
+        border-radius: 5px;
+        border: none;
+    }
+    #imageHolder{
+       display:none;
+    }
+    form .feedtextarea{
+        width:100%;
+        height: 100px;
+        padding:10px;
+        margin-left: 0px;
+        background-color: white;
+        color: #000;
+        border: 1px solid #000; 
+        
+    }
+    form .submitfeed{
+        background-color: #f8b609;
+        color: #fff;
+        border:none;
+        border-radius: 20px;
+        padding: 2px 15px 2px 15px;
+        margin-top: 10px;
+    }
+    .orders{
+        background: #e8e9ed;
+        color:black;
+    }
+    #ordersimage{
+        width: 100%;
+        margin-bottom: 30px;
+        margin-top: 50px;
+        opacity: 0.8;
+    }
+    .orders h4{
+       font-weight: 600;
+       font-size: 18px;
+       margin-top: 20px;
+    }
+    #bookbtn{
+        margin:20px 0px 10px 0px;
+        background-color: #fff;
+        color: #000;
+        border: 1px solid #f8b609;
+        border-radius: 20px;
+    }
+    #bookbtn:hover{
+        background-color: #f8b609;
+    }
+    #booktechnician{
+        background-color: #f8b609;
+        color:#fff;
+        padding: 2px 10px 2px 10px;
+        border-radius: 20px;
+        margin-left: 20px;
+        border: none;
+    }
+    .orderbtns{
+        background-color: #fff;
+        border:1px solid #f8b609;
+        border-radius: 20px;
+        padding: 2px 10px;
+    }
+    #closesatisfaction{
+        color:#000;
+        float: right;
+    }
+    #satisfactionMessage {
+        margin: 50px 0px 0px 20px;
+        border: 1px solid #f8b609;
+        color: #000;
+        padding: 10px 5px 10px 5px;
+        border-radius: 5px;
+    }
+    #notsatisfied{
+        background-color: white;
+        color:black;
+        border-radius: 5px;
+        border: 1px solid #f8b609;
+        margin-right:25px;
+    }
+    #satisfied{
+        background-color: white;
+        color:black;
+        border-radius: 5px;
+        border: 1px solid #f8b609;
+    }
+    #payment i{
+        float: right; margin-top: 3px; margin-right: 3px;
+    }
+    #requestcall i{
+        float: right; margin-top: 3px; margin-right: 3px;
+    }
+    #payment{
+        border: 1px solid #000;
+        margin:10px ;
+        visibility: hidden; 
+    }
+    #paymentlink{
+        color: black;
+        text-decoration: #f8b609 underline;
+    }
+    #requestcall{
+        border: 1px solid #000;
+        margin:-70px 20px 0px 20px;
+        visibility: hidden;
+    }
+    #requestlink{
+        text-decoration: underline #f8b609;
+        color: black;
+    }
+    #mpesa{
+        background-color: white;
+        color:black;
+        border-radius: 20px;
+        border: 1px solid #f8b609;
+        margin-top: 5px;
+        margin-left: 20px;
+        padding:0px 10px 0px 10px;
+    }
+    #mpesapayment {
+        border: 1px solid #f8b609;
+        margin: 12px 10px 0px 10px;
+        padding: 5px 10px 0px 10px;
+        background-color: #e8e9ed;
+        color: black;
+        border-radius: 30px;
+        font-size: small;
+        visibility: hidden;
+    }
+    #cash {
+        background-color: white;
+        color:black;
+        border-radius: 20px;
+        border: 1px solid #f8b609;
+        margin-left: 70px;
+        padding:0px 10px 0px 10px;
+    }
+    #cashpayment {
+        border: 1px solid #f8b609;
+        margin: -110px 20px 0px 20px;
+        background-color: #e8e9ed;
+        color: black;
+        border-radius: 30px;
+        font-size: small;
+        visibility: hidden;
+    }
+    #ordercomplete{
+        visibility: hidden;
+    }
+    #ordercompletebtn {
+        background-color: #f8b609;
+        color: #000;
+        border: none;
+        padding: 0px 10px 0px 10px;
+        border-radius: 20px;
+    }
+    #ballonimg{
+        visibility: hidden;
+    }
+    #textcolumn{
+        margin-top: 20px;
+        margin-left: -200px;
+        color:black;
+    }
+    #textcolumn h2{
+        font-weight: 600;
+        font-size: 18px;
+    }
+    #receiptsent {
+        border: 1px solid #f8b609;
+        background-color: #e8e9ed;
+        color:black;
+        border-radius: 20px;
+        
+    }
+    #ratingCard{
+        height: 400px; 
+        width:200px; 
+        margin-left: 10px; 
+        margin-top: 10px;
+    }
+    #submitrating{
+        background-color: #f8b609;
+        color: #fff;
+        border:none;
+        border-radius: 20px;
+        padding: 2px 15px 2px 15px;
+        margin-left:50px;
+    }
+    #ratingcomment {
+        width: 170px;
+        height: 80px;
+    }
+    #thankMessage {
+        color:black;
+        font-weight: 500;
+        margin-top:100px;
+        visibility: hidden;
+    }
+    #rating #close{
+        float:right;
+    }
+    #welcomeimg {
+        display: none;
+    }
+    #womanSitting{
+        display: none;
+    }
+    #bookservice{
+        background-color: #fff;
+        color: black;
+        border: 1px solid #f8b609;
+        border-radius: 20px;
+        padding: 1px 10px 1px 10px;
+        margin-left: 30px;
+    }
+    #bookservice:hover{
+        background-color: #f8b609;
+    }
+    #requestfyx{
+        margin-top: -100px;
+    }
+    .star{
+        display: none;
+    }
+    @media (max-width:320px){
+       #welcomewords h2{
+           font-size: 20px;
+           font-weight: 800px;
+       }
+       #welcomewords p{
+        font-size: 13px;
+        font-weight: 700px;
+       }
+       #bookservice{
+        background-color: #fff;
+        color: black;
+        font-size: 11px;
+        border: 1px solid #f8b609;
+        border-radius: 20px;
+        padding: 0 5px;
+      }
+      #bookservice:hover{
+        background-color: #f8b609;
+      }
+    }
+}
+@media(min-width:1024px){
+    .bookingform .otherinputs{
+        width:100%;
+         margin-left: 10px;
+    }
+    .bookingform textarea{
+        width:100%;
+        border-radius: 5px;
+        margin-left: 10px;
+        background-color: #e8e9ed;
+        border-color: #e8e9ed;
+        
+    }
+    .feedback .col{
+        width: 50%;
+    }
+}
